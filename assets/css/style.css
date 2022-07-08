@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 100%;
+}
+@font-face {
+  font-family: 'Balsamiq Sans';
+  src: url('../fonts/BalsamiqSans-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+}
+@media (max-width: 992px) {
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
+.link-item {
+  position: relative;
+  padding-top: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.link-item:before {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 20, 24, 0.8);
+  z-index: 1;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+  background-image: url('../img/eye-svgrepo-com.svg');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+}
+@media (max-width: 600px) {
+  .link-item:before {
+    display: none;
+  }
+}
+.link-item:after {
+  content: '+ Смотреть проeкт';
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 100%;
+  width: calc(100% - 60px);
+  color: #fff;
+  font-size: 20px;
+  z-index: 20;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  font-family: 'Balsamiq Sans', cursive;
+  opacity: 0;
+}
+@media (max-width: 1300px) {
+  .link-item:after {
+    font-size: 16px;
+  }
+}
+@media (max-width: 800px) {
+  .link-item:after {
+    font-size: 14px;
+    width: calc(100% - 30px);
+  }
+}
+@media (max-width: 600px) {
+  .link-item:after {
+    display: none;
+  }
+}
+.link-item:hover:before {
+  opacity: 1;
+  background-size: 70px;
+}
+@media (max-width: 1300px) {
+  .link-item:hover:before {
+    background-size: 50px;
+  }
+}
+.link-item:hover:after {
+  left: 60px;
+  opacity: 1;
+}
+@media (max-width: 800px) {
+  .link-item:hover:after {
+    font-size: 14px;
+    left: 30px;
+  }
+}
+.link-item:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.link-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}

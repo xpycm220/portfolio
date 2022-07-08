@@ -1,0 +1,2889 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Milerd</title>
+
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="stylesheet" href="css/main.css?v=1.05">
+    <link rel="stylesheet" href="css/dop.css?v=1.05">
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader__loader"></div>
+    </div>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__content">
+                <a href="#" class="header__logo">
+                    <img src="img/logo.svg" alt="logo" class="logo-img">
+                    <img src="img/logo2.svg" alt="logo" class="logo-mob-img">
+                </a>
+                <div class="header__address">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#location"></use>
+                    </svg>
+                    127018, Россия, Москва, Складочная улица, 1с1
+                </div>
+                <div class="header__tell">
+                    <span class="email"><a href="mailto:info@milerd.ru">info@milerd.ru</a></span>
+                    <a href="tel:+84951080782" class="tell">8 (495) 108-07-82</a>
+                </div>
+                <div class="header__language language">
+                    <div class="language__current">RU</div>
+                    <div class="language__dropdown">
+                        <a href="#">RU</a>
+                        <a href="#">EN</a>
+                    </div>
+                </div>
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-menu">
+        <div class="main-menu__close">
+            <svg>
+                <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+        </div>
+        <div class="main-menu__img">
+            <img src="img/menu-circle.svg" alt="img" class="circle">
+            <img src="img/logo2.svg" alt="img" class="logo">
+            <img src="img/logo.svg" alt="logo" class="mob-logo">
+        </div>
+        <div class="main-menu__content">
+            <div class="main-menu__body">
+                <ul class="main-menu__nav">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">каталог продукции</a></li>
+                    <li><a href="#">о компании</a></li>
+                    <li><a href="#">документы и сертификаты</a></li>
+                    <li><a href="#">доставка и оплата</a></li>
+                    <li><a href="#">контакты</a></li>
+                </ul>
+            </div>
+            <div class="main-menu__footer">
+                <div class="main-menu__company">© Милерд 2020.</div>
+            </div>
+        </div>
+
+        <div class="main-menu__sidebar menu-sidebar">
+            <div class="menu-sidebar__contact">
+                <div class="contact-item">
+                    <div class="contact-item__text">Бесплатнo по России:</div>
+                    <div class="contact-item__link">
+                        <a href="tel:+88002008090">8 (800) 200-80-90</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item__text">Звонки по Москве:</div>
+                    <div class="contact-item__link">
+                        <a href="tel:+88002008090">8 (495) 108-07-82</a>
+                    </div>
+                </div>
+                <div class="contact-item contact-item-email">
+                    <div class="contact-item__text">E-mail для запроса КП:</div>
+                    <div class="contact-item__link">
+                        <a href="mailto:info@milerd.ru">info@milerd.ru</a>
+                    </div>
+                </div>
+                <div class="contact-item soc-contact">
+                    <a href="#">
+                        <img src="img/whatsapp.svg" alt="whatsapp">
+                    </a>
+                    <a href="#">
+                        <img src="img/telegram.svg" alt="telegram">
+                    </a>
+                    <div class="soc-contact__text">WhatsApp | Telegram</div>
+                </div>
+            </div>
+            <div class="menu-sidebar__info">
+                <div class="info-item">
+                    <div class="info-item__title">ООО «Соэкс Технолоджи»</div>
+                    <div class="info-item__text">ОГРН: 1 137 746 887 849</div>
+                    <div class="info-item__text">ИНН: 7 715 976 805</div>
+                    <div class="info-item__text">КПП: 771 501 001</div>
+                    <div class="info-item__text">ОКПО: 18 686 558</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-item__title">ИП «Лихачёв Владислав Олегович»</div>
+                    <div class="info-item__text">ОГРНИП: 313 774 618 900 146</div>
+                    <div class="info-item__text">ИНН: 771 665 157 247</div>
+                    <div class="info-item__text">ОКПО: 0 187 232 962</div>
+                </div>
+            </div>
+
+            <div class="menu-sidebar__company">© Милерд 2020. Все права защищены</div>
+        </div>
+    </div>
+
+    <div class="call-menu">
+        <div class="call-menu__close">
+            <svg>
+                <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+        </div>
+        <div class="call-menu__head">
+            <div class="call-menu__title">Контакты</div>
+            <div class="call-menu__subtitle">Есть интересующие вопросы? Свяжитесь любым удобным способом</div>
+        </div>
+        <div class="call-menu__tell">
+            <div class="contact-item">
+                <div class="contact-item__title">Бесплатный звонок по всей России:</div>
+                <a href="tel:88002008090" class="contact-item__tell">8 (800) 200-80-90</a>
+            </div>
+            <div class="contact-item">
+                <div class="contact-item__title">Звонки по Москве:</div>
+                <a href="tel:84951080782" class="contact-item__tell">8 (495) 108-07-82</a>
+            </div>
+            <div class="contact-item soc-contact">
+                <a href="#">
+                    <img src="img/whatsapp.svg" alt="whatsapp">
+                </a>
+                <a href="#">
+                    <img src="img/telegram.svg" alt="telegram">
+                </a>
+                <div class="soc-contact__text">WhatsApp | Telegram</div>
+            </div>
+        </div>
+        <div class="call-menu__email">
+            <div class="contact-item">
+                <div class="contact-item__title">E-mail:</div>
+                <a href="mailto:info@milerd.ru" class="contact-item__tell">info@milerd.ru</a>
+            </div>
+        </div>
+        <div class="call-menu__text">У вас есть вопрос или предложение? Напишете нам на почту или оставьте заявку на
+            звонок</div>
+
+        <a href="#callback-popup" class="btn btn-border-white popup-btn">Заказать звонок</a>
+    </div>
+
+
+    <a href="#shopping-popup" class="f-cart popup-btn">
+        <div class="f-cart__amount">0</div>
+        <svg>
+            <use xlink:href='img/sprite.svg#shopping-cart'></use>
+        </svg>
+    </a>
+<div class="preheader">
+   <div class='container'>
+      <div class="breadcrumbs">
+         <a href="#">Главная</a>
+         <a href="#">Каталог продукции</a>
+      </div>
+      <h2 class="preheader__title">Каталог продукции <span class="gray">Milerd</span></h2>
+      <div class="preheader__subtitle subtitle">В наличии более 30 видов приборов, различной мощности и назначения</div>
+   </div>
+</div>
+
+<div class="catalog">
+   <div class='container'>
+      <div class="catalog__head">
+         
+         <nav class="catalog-nav">
+            <a href="#s-standart" class="scroll-link">Серия Standart1</a>
+            <a href="#s-pro" class="scroll-link">Серия Pro</a>
+            <a href="#s-efficiency" class="scroll-link">Серия Efficiency</a>
+            <a href="#s-power" class="scroll-link">Серия Power</a>
+            <a href="#s-other" class="scroll-link">Другая продукция</a>
+         </nav>
+      </div>
+
+      <div class="series" id="s-standart">
+         <div class="series__discription">
+            <h3 class="series__title">Серия рециркуляторов <span class="gray">Standart</span></h3>
+            <div class="series__text">Отлично подходит для использования в офисах, учебных учреждениях и больницах. Для
+               помещений площадью 60-70 м2. С подтвержденной эффективностью 99,99% борется с известными бактериями
+               и вирусами</div>
+         </div>
+
+         <img data-src="img/series-standart.jpg" alt="img" class="series__img lazy">
+      </div>
+
+      <div class="catalog__row">
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label sale">Sale</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr1.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr1.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-1</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">111djfhdjfhdjfh</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">12 780</span>
+            <span class="card__price-old cart-old-price">19 150</span>
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label hit">Хит</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr2.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr2.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-2</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr3.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr3.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-3</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">25 750</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr4.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr4.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-4</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">34 900</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+      </div>
+
+      <div class="card-slider wow">
+         <svg class="animate-tap">
+            <use xlink:href='img/sprite.svg#tap'></use>
+         </svg>
+         <div class="swiper-wrapper">
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label sale">Sale</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr1.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr1.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-1</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">djfhdjfhdjfh</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">12 780</span>
+            <span class="card__price-old cart-old-price">19 150</span>
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label hit">Хит</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr2.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr2.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-2</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr3.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr3.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-3</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">25 750</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr4.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr4.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-4</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">34 900</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+         </div>
+      </div>
+
+      <div class="logo-line">
+         <div class="logo-line__line"></div>
+         <img src="img/logo-line.svg" alt="logo">
+         <div class="logo-line__line"></div>
+      </div>
+
+      <div class="series" id="s-pro">
+         <div class="series__discription">
+            <h3 class="series__title">Серия рециркуляторов <span class="gray">Pro</span></h3>
+            <div class="series__text">Отлично подходит для использования в офисах, учебных учреждениях и больницах. Для
+               помещений площадью 60-70 м2. С подтвержденной эффективностью 99,99% борется с известными бактериями
+               и вирусами</div>
+         </div>
+
+         <img data-src="img/series-pro.jpg" alt="img" class="series__img lazy">
+      </div>
+
+      <div class="catalog__row">
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr-pro1.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr-pro1.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-1 Pro</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">djfhdjfhdjfh</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr-pro2.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr-pro2.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-2 Pro</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr-pro3.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr-pro3.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-3 Pro</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr-pro4.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr-pro4.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-4 Pro</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+      </div>
+
+      <div class="card-slider wow">
+         <svg class="animate-tap">
+            <use xlink:href='img/sprite.svg#tap'></use>
+         </svg>
+         <div class="swiper-wrapper">
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr-pro1.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr-pro1.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-1 Pro</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">djfhdjfhdjfh</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr-pro2.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr-pro2.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-2 Pro</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr-pro3.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr-pro3.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-3 Pro</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr-pro4.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr-pro4.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-4 Pro</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+         </div>
+      </div>
+
+      <div class="logo-line">
+         <div class="logo-line__line"></div>
+         <img src="img/logo-line.svg" alt="logo">
+         <div class="logo-line__line"></div>
+      </div>
+
+      <div class="series" id="s-efficiency">
+         <div class="series__discription">
+            <h3 class="series__title">Серия рециркуляторов <span class="gray">Effieciency</span></h3>
+            <div class="series__text">Отлично подходит для использования в офисах, учебных учреждениях и больницах. Для
+               помещений площадью 80-100 м2. С подтвержденной эффективностью 99,99% борется с известными бактериями
+               и вирусами</div>
+         </div>
+
+         <img data-src="img/series-efficiency.jpg" alt="img" class="series__img lazy">
+      </div>
+
+      <div class="catalog__row">
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label hit">Хит</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr5.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr5.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-5</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">djfhdjfhdjfh</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label hit">Хит</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr6.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr6.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-6</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+      </div>
+
+      <div class="card-slider wow">
+         <svg class="animate-tap">
+            <use xlink:href='img/sprite.svg#tap'></use>
+         </svg>
+         <div class="swiper-wrapper">
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label hit">Хит</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr5.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr5.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-5</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">djfhdjfhdjfh</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label hit">Хит</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr6.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr6.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-6</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+         </div>
+      </div>
+
+      <div class="logo-line">
+         <div class="logo-line__line"></div>
+         <img src="img/logo-line.svg" alt="logo">
+         <div class="logo-line__line"></div>
+      </div>
+
+      <div class="series" id="s-power">
+         <div class="series__discription">
+            <h3 class="series__title">Серия рециркуляторов <span class="gray">Power</span></h3>
+            <div class="series__text">Отлично подходит для использования в офисах, учебных учреждениях и больницах. Для
+               помещений площадью 80-100 м2. С подтвержденной эффективностью 99,99% борется с известными бактериями
+               и вирусами</div>
+         </div>
+
+         <img data-src="img/series-power.jpg" alt="img" class="series__img lazy">
+      </div>
+
+      <div class="catalog__row">
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr7.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr7.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-7</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">djfhdjfhdjfh</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">35 750</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr8.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr8.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-10</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">35 750</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+      </div>
+
+      <div class="card-slider wow">
+         <svg class="animate-tap">
+            <use xlink:href='img/sprite.svg#tap'></use>
+         </svg>
+         <div class="swiper-wrapper">
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr7.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr7.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-7</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">djfhdjfhdjfh</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">35 750</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/dzr8.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/dzr8.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">УФ-рециркулятор Milerd DZR-10</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">35 750</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+         </div>
+      </div>
+
+      <div class="logo-line">
+         <div class="logo-line__line"></div>
+         <img src="img/logo-line.svg" alt="logo">
+         <div class="logo-line__line"></div>
+      </div>
+
+      <div class="series" id="s-other">
+         <div class="series__discription">
+            <h3 class="series__title">Другая продукция</h3>
+            <div class="series__text">Отлично подходит для использования в офисах, учебных учреждениях и больницах. Для
+               помещений площадью 80-100 м2. С подтвержденной эффективностью 99,99% борется с известными бактериями
+               и вирусами</div>
+         </div>
+         <img data-src="img/other.jpg" alt="img" class="series__img lazy">
+      </div>
+
+      <div class="catalog__row">
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/recommend1.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/recommend1.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">Соэкс Эковизор F4</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">djfhdjfhdjfh</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/recommend2.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/recommend2.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">Портативный стерилизатор Milerd</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/recommend3.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/recommend3.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">Комплекс Соэкс Квазар</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+         <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/recommend4.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/recommend4.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">Экобризер Milerd</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+      </div>
+
+      <div class="card-slider wow">
+         <svg class="animate-tap">
+            <use xlink:href='img/sprite.svg#tap'></use>
+         </svg>
+         <div class="swiper-wrapper">
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/recommend1.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/recommend1.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">Соэкс Эковизор F4</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">djfhdjfhdjfh</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/recommend2.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/recommend2.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">Портативный стерилизатор Milerd</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/recommend3.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/recommend3.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">Комплекс Соэкс Квазар</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+
+            <div class="card cart-item">
+   <div class="card__img">
+      <div class="card__img-inner">
+         <div class="card__img-content">
+            <div class="labels"><div class="label new">New</div></div>
+
+            <img data-src=img/dzr1-h.jpg class="card__img-hover lazy">
+            <img data-src=img/recommend4.jpg class="card__img-current lazy cart-img">
+            <!-- <img data-src=img/recommend4.jpg class="card__img-mob swiper-lazy"> -->
+            <!-- <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div> -->
+
+            <a href="#" class="more-btn">Подробнее <svg>
+                  <use xlink:href='img/sprite.svg#link'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="card__body">
+      <div class="card__title cart-name">Экобризер Milerd</div>
+      <div class="card__subtitle">Производительность: 84 м3/час</div>
+      <div class="card__text">Профессиональный рециркулятор Milerd DZR-1 Pro предназначен для эффективного обеззараживания</div>
+   </div>
+   <div class="card__footer">
+      <div class="card__info">
+         <div class="card__price">
+            <span class="card__price-current cart-price">19 880</span>
+            
+         </div>
+         <a href="#shopping-popup" class="buy-btn cart-plus popup-btn">Купить</a>
+      </div>
+   </div>
+</div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="advantages">
+   <div class='container'>
+      <div class="advantages__row">
+         <div class="advantages__column">
+            <div class="advantages-item">
+               <div class="advantages-item__icon">
+                  <img src="img/advantages1.svg" alt="icon">
+               </div>
+               <div class="advantages-item__title">Продукция сертифицирована</div>
+               <div class="advantages-item__text">Продукция сертифицирована, разрешена и рекомендована Роспотребнадзором
+               </div>
+            </div>
+         </div>
+         <div class="advantages__column">
+            <div class="advantages-item">
+               <div class="advantages-item__icon">
+                  <img src="img/advantages2.svg" alt="icon">
+               </div>
+               <div class="advantages-item__title">Собственное производство</div>
+               <div class="advantages-item__text">Мы прямой производитель, производим более 50 тыс. <br> изделий в месяц
+               </div>
+            </div>
+         </div>
+         <div class="advantages__column">
+            <div class="advantages-item">
+               <div class="advantages-item__icon">
+                  <img src="img/advantages3.svg" alt="icon">
+               </div>
+               <div class="advantages-item__title">Оптом и в розницу <br>
+                  без посредников</div>
+               <div class="advantages-item__text">Работаем с физ. лицами и юр. лицами, от 1-го прибора, возможна
+                  безналичная оплата с НДС</div>
+            </div>
+         </div>
+         <div class="advantages__column">
+            <div class="advantages-item">
+               <div class="advantages-item__icon">
+                  <img src="img/advantages4.svg" alt="icon">
+               </div>
+               <div class="advantages-item__title">Гарантия <br> на продукцию</div>
+               <div class="advantages-item__text">2 года гарантии на весь ассортимент продукции <br> Milerd</div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="not-risk">
+   <div class="swiper-wrapper">
+      <div class="swiper-slide not-risk__slide">
+         <div class='container'>
+            <div class="not-risk__row">
+               <div class="not-risk__discr">
+                  <h2 class="not-risk__title">Избавьтесь от рисков,
+                     работая с профессионалами
+                     и прямым производителем</h2>
+                  <div class="not-risk__subtitle subtitle">Доставляем рециркуляторы Milerd в день заказа по Москве и в
+                     срок от 2 до 8 дней по РФ бесплатно. Hаботаем с физлицами и юрлицами от 1го прибора, возможна
+                     оплата по безналу с НДС</div>
+                  <div class="not-risk__btn">
+                     <a href="#main-popup" class="btn btn-red popup-btn">Узнать подробнее</a>
+                  </div>
+
+               </div>
+               <div class="not-risk__img">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div>
+                  <img data-src="img/not-risk1.png" class="swiper-lazy">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="swiper-slide not-risk__slide">
+         <div class='container'>
+            <div class="not-risk__row">
+               <div class="not-risk__discr">
+                  <h2 class="not-risk__title">Доставим опт рециркуляторов Milerd по Москве уже на следующий день!</h2>
+                  <div class="not-risk__subtitle subtitle">Доставляем рециркуляторы Milerd в день заказа по Москве и в
+                     срок от 2 до 8 дней по РФ бесплатно. Hаботаем с физлицами и юрлицами от 1го прибора, возможна
+                     оплата по безналу с НДС</div>
+                  <div class="not-risk__btn">
+                     <a href="#main-popup" class="btn btn-red popup-btn">Узнать подробнее</a>
+                  </div>
+
+               </div>
+               <div class="not-risk__img">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div>
+                  <img data-src="img/not-risk2.png" class="swiper-lazy">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="swiper-pagination"></div>
+   <div class="swiper-btn swiper-btn-next">
+      <svg>
+         <use xlink:href='img/sprite.svg#swiper-next'></use>
+      </svg>
+   </div>
+   <div class="swiper-btn swiper-btn-prev">
+      <svg>
+         <use xlink:href='img/sprite.svg#swiper-prev'></use>
+      </svg>
+   </div>
+</div>
+<div class="certificates">
+   <div class='container'>
+      <h2 class="certificates__title">Сертификаты и свидетельства</h2>
+      <div class="certificates__subtitle subtitle">Качество продукции на 100 % соответствует всем ГОСТам, ТУ и
+         международным стандартам</div>
+      <div class="logo-line">
+         <div class="logo-line__line"></div>
+         <img src="img/logo-line.svg" alt="logo">
+         <div class="logo-line__line"></div>
+      </div>
+      <div class="slider-wrap">
+         <div class="swiper-btn swiper-btn-next cert-slider">
+            <svg>
+               <use xlink:href='img/sprite.svg#swiper-next'></use>
+            </svg>
+         </div>
+         <div class="swiper-btn swiper-btn-prev cert-slider">
+            <svg>
+               <use xlink:href='img/sprite.svg#swiper-prev'></use>
+            </svg>
+         </div>
+         <div class="certificates-slider">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide certificate">
+                  <a href="img/cert1.jpg" class="certificate__img" data-fancybox>
+                     <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div>
+                     <img data-src="img/cert1-sm.jpg" class="swiper-lazy">
+                  </a>
+                  <div class="certificate__title">Протокол испытаний № СДП/2020 - 05662</div>
+                  <a download href="img/cert2.jpg" class="certificate__link">Скачать PDF (487 кб.)</a>
+               </div>
+               <div class="swiper-slide certificate">
+                  <a href="img/cert2.jpg" class="certificate__img" data-fancybox>
+                     <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div>
+                     <img data-src="img/cert2-sm.jpg" class="swiper-lazy">
+                  </a>
+                  <div class="certificate__title">Декларация о соответствии</div>
+                  <a download href="img/cert2.jpg" class="certificate__link">Скачать PDF (487 кб.)</a>
+               </div>
+               <div class="swiper-slide certificate">
+                  <a href="img/cert3.jpg" class="certificate__img" data-fancybox>
+                     <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div>
+                     <img data-src="img/cert3-sm.jpg" class="swiper-lazy">
+                  </a>
+                  <div class="certificate__title">Протокол испытаний № СДП/2020 - 05662</div>
+                  <a download href="img/cert2.jpg" class="certificate__link">Скачать PDF (487 кб.)</a>
+               </div>
+               <div class="swiper-slide certificate">
+                  <a href="img/cert4.jpg" class="certificate__img" data-fancybox>
+                     <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div>
+                     <img data-src="img/cert4-sm.jpg" class="swiper-lazy">
+                  </a>
+                  <div class="certificate__title">Протокол испытаний № СДП/2020 - 05662</div>
+                  <a download href="img/cert4.jpg" class="certificate__link">Скачать PDF (487 кб.)</a>
+               </div>
+               <div class="swiper-slide certificate">
+                  <a href="img/cert5.jpg" class="certificate__img" data-fancybox>
+                     <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div>
+                     <img data-src="img/cert5-sm.jpg" class="swiper-lazy">
+                  </a>
+                  <div class="certificate__title">Протокол испытаний № СДП/2020 - 05662</div>
+                  <a download href="img/cert2.jpg" class="certificate__link">Скачать PDF (487 кб.)</a>
+               </div>
+               <div class="swiper-slide certificate">
+                  <a href="img/cert6.jpg" class="certificate__img" data-fancybox>
+                     <div class="swiper-lazy-preloader swiper-lazy-preloader-blue"></div>
+                     <img data-src="img/cert6-sm.jpg" class="swiper-lazy">
+                  </a>
+                  <div class="certificate__title">Протокол испытаний № СДП/2020 - 05662</div>
+                  <a download href="img/cert2.jpg" class="certificate__link">Скачать PDF (487 кб.)</a>
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="contact">
+   <div class="contact__row">
+      <div class="contact-form">
+         <div class="contact-form__content">
+            <h2 class="contact__title">Есть вопросы? <br> Напишите нам</h2>
+            <form action="#" class="form-column validate">
+               <div class="formgroup">
+                  <span>Ваше имя:</span>
+                  <input type="text" name="name" placeholder="Александр">
+               </div>
+               <div class="formgroup">
+                  <span>Ваш e-mail:</span>
+                  <input type="email" name="email" placeholder="ivan.ivanov@example.com">
+               </div>
+               <div class="formgroup">
+                  <span>Текст обращения:</span>
+                  <textarea name="" rows="5" placeholder="Опишите свой вопрос или предложение..."></textarea>
+               </div>
+               <div class="formgroup">
+                  <div class="upload">
+                     <div class="upload__header">
+                        <span class="icon">
+                           <svg class="svg-icon">
+                              <use xlink:href="img/sprite.svg#attach_file"></use>
+                           </svg>
+                        </span>
+
+                        <div class="file-upload">
+                           <label class="lbl" for="userfile">
+                              <input type="file" name="userfile[]" id="userfile" autocomplete="off">
+                              <span class="">Прикрепить файл (до 10 мб.)</span>
+                           </label>
+                        </div>
+                     </div>
+                     <div class="info"></div>
+                  </div>
+               </div>
+               <button type="submit" class="btn btn-red">Отправить обращение</button>
+            </form>
+         </div>
+      </div>
+
+      <div class="contact__map">
+         <div class="contact-map">
+            <div class="contact-map__contact">
+               <h3 class="contact-map__title">Контакты</h3>
+               <div class="contact-map__address">
+                  <span class="icon">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#location2'></use>
+                     </svg>
+                  </span>
+                  127018, Россия, Москва, <br> Складочная улица, 1с1
+               </div>
+               <div class="contact-map__tell">
+                  <span class="icon">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#calls'></use>
+                     </svg>
+                  </span>
+                  <a href="tel:+84951080782">8 (495) 108-07-82</a>
+               </div>
+               <div class="contact-map__time">
+                  Работаем с 9.00 до 22.00 ежедневно и без выходных
+               </div>
+            </div>
+         </div>
+         <div id="map">
+            <script>
+               var map;
+               var InforObj = [];
+
+               var centerCords = {
+                  lat: 55.799712,
+                  lng: 37.593858
+               };
+
+               var markersOnMap = [
+                  {
+                     placeName: "г. Москва",
+                     address: "127018, Россия, Москва, Складочная улица, 1с1",
+                     LatLng: [
+                        {
+                           lat: 55.799712,
+                           lng: 37.593858
+                        }
+                     ]
+                  }
+               ];
+
+               function addMarker() {
+                  var image = {
+                     url:
+                        "img/pin.svg",
+                  };
+
+                  for (var i = 0; i < markersOnMap.length; i++) {
+
+                     var contentString =
+                        '<div id="content">' + markersOnMap[i].address;
+
+                     const marker = new google.maps.Marker({
+                        position: markersOnMap[i].LatLng[0],
+                        map: map,
+
+                        icon: image
+                     });
+
+                     const infowindow = new google.maps.InfoWindow({
+                        content: contentString
+                     });
+
+                     marker.addListener("click", function () {
+                        closeOtherInfo();
+                        infowindow.open(marker.get("map"), marker);
+                        InforObj[0] = infowindow;
+                     });
+
+                     google.maps.event.addListener(map, "click", function (event) {
+                        infowindow.close();
+                     });
+                  }
+               }
+
+               function closeOtherInfo() {
+                  if (InforObj.length > 0) {
+                     InforObj[0].set("marker", null);
+                     InforObj[0].close();
+                     InforObj.length = 0;
+                  }
+               }
+
+               function initMap() {
+                  var mapOptions = {
+                     zoom: 16,
+                     gestureHandling: 'cooperative',
+                     center: centerCords,
+                     styles: [{ "featureType": "administrative", "elementType": "all", "stylers": [{ "saturation": "-100" }] }, { "featureType": "administrative.province", "elementType": "all", "stylers": [{ "visibility": "off" }] }, { "featureType": "landscape", "elementType": "all", "stylers": [{ "saturation": -100 }, { "lightness": 65 }, { "visibility": "on" }] }, { "featureType": "poi", "elementType": "all", "stylers": [{ "saturation": -100 }, { "lightness": "50" }, { "visibility": "simplified" }] }, { "featureType": "road", "elementType": "all", "stylers": [{ "saturation": "-100" }] }, { "featureType": "road.highway", "elementType": "all", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "road.arterial", "elementType": "all", "stylers": [{ "lightness": "30" }] }, { "featureType": "road.local", "elementType": "all", "stylers": [{ "lightness": "40" }] }, { "featureType": "transit", "elementType": "all", "stylers": [{ "saturation": -100 }, { "visibility": "simplified" }] }, { "featureType": "water", "elementType": "geometry", "stylers": [{ "hue": "#ffff00" }, { "lightness": -25 }, { "saturation": -97 }] }, { "featureType": "water", "elementType": "labels", "stylers": [{ "lightness": -25 }, { "saturation": -100 }] }]
+                  };
+                  map = new google.maps.Map(document.getElementById('map'), mapOptions);
+                  addMarker();
+               }
+            </script>
+
+            <div class="script">
+
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<footer class="footer">
+   <div class="footer__top">
+      <div class="footer__row">
+         <div class="footer__column footer__column1">
+            <div class="footer-data">
+               <div class="footer-data__logo">
+                  <a href="#"><img src="img/logo.svg" alt="logo"></a>
+               </div>
+               <div class="footer-data__title">ООО «Соэкс Технолоджи»</div>
+               <ul class="footer-data__list">
+                  <li>ОГРН: 1137746887849</li>
+                  <li>ИНН: 7715976805</li>
+                  <li>КПП: 771501001</li>
+                  <li>ОКПО: 18686558</li>
+               </ul>
+            </div>
+         </div>
+         <div class="footer__column footer__column2">
+            <div class="footer-nav">
+               <div class="footer-nav__title">
+                  Каталог продукции:
+                  <svg>
+                     <use xlink:href='img/sprite.svg#arrow-bot'></use>
+                  </svg>
+               </div>
+               <ul class="footer-nav__list">
+                  <li><a href="#">Рециркуляторы Standart</a></li>
+                  <li><a href="#">Рециркуляторы Pro</a></li>
+                  <li><a href="#">Рециркуляторы Efficiency</a></li>
+                  <li><a href="#">Рециркуляторы Power</a></li>
+                  <li><a href="#">Экобризер Milerd <span class="new">New</span></a></li>
+                  <li><a href="#">Стерилизаторы</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="footer__column footer__column3">
+            <div class="footer-nav">
+               <div class="footer-nav__title">
+                  Навигация по сайту:
+                  <svg>
+                     <use xlink:href='img/sprite.svg#arrow-bot'></use>
+                  </svg>
+               </div>
+               <ul class="footer-nav__list">
+                  <li><a href="#">Главная</a></li>
+                  <li><a href="#">Каталог продукции</a></li>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Документация</a></li>
+                  <li><a href="#">Доставка и оплата</a></li>
+                  <li><a href="#">Контакты</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="footer__column footer__column4">
+            <div class="footer-contact">
+               <div class="footer-contact__email">
+                  <span>E-mail:</span>
+                  <a href="mailto:info@milerd.ru">info@milerd.ru</a>
+               </div>
+               <div class="footer-contact__text">У вас есть вопрос или предложение?
+                  Напишете нам на почту или оставьте
+                  заявку на звонок</div>
+               <div class="footer-contact__btn">
+                  <a href="#callback-popup" class="btn btn-border-white popup-btn">Заказать звонок</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="footer__bottom">
+      <div class="footer__row">
+         <div class="footer__column footer__column1">
+            <div class="footer-copy">© 2020. ООО «Соэкс Технолоджи».
+               Все права защищены.</div>
+         </div>
+         <div class="footer__column footer__column2">
+            <ul class="footer-regulations">
+               <li><a href="#politics-popup" class="popup-btn">Правила пользования</a></li>
+               <li><a href="#politics-popup" class="popup-btn">Политика конфиденциальности</a></li>
+            </ul>
+         </div>
+         <div class="footer__column footer__column3">
+            <div class="footer-social">
+               <a href="#" class="footer-social__vk">
+                  <img src="img/vk.svg" alt="icon">
+               </a>
+               <a href="#" class="footer-social__fb">
+                  <img src="img/fb.svg" alt="icon">
+               </a>
+               <a href="#" class="footer-social__insta">
+                  <img src="img/insta.svg" alt="icon">
+               </a>
+               <a href="#" class="footer-social__tube">
+                  <img src="img/youtube.svg" alt="icon">
+               </a>
+            </div>
+         </div>
+         <div class="footer__column footer__column4">
+            <div class="made-in">
+               <a href="https://gektor-studio.com/" target="_blank">
+                  <img src="img/gektor.svg" alt="logo">
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+
+<div id="main-popup" class="zoom-anim-dialog mfp-hide main-popup popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+   <div class="main-popup__bg"></div>
+   <div class="main-popup__content">
+      <form action="#" class="form-column validate">
+         <h3 class="main-popup__title">Заявка на расчёт</h3>
+         <div class="formgroup">
+            <span>Ваше имя:</span>
+            <input type="text" name="name" placeholder="Александр">
+         </div>
+         <div class="formgroup">
+            <span>Ваш номер телефона:</span>
+            <input type="tel" name="tell" placeholder="+7 (___) ___-__-__">
+         </div>
+         <div class="formgroup">
+            <span>Текст обращения:</span>
+            <textarea name="" rows="4" placeholder="Опишите свой вопрос или предложение..."></textarea>
+         </div>
+         <div class="formgroup">
+            <div class="upload">
+               <div class="upload__header">
+                  <span class="icon">
+                     <svg class="svg-icon">
+                        <use xlink:href="img/sprite.svg#attach_file"></use>
+                     </svg>
+                  </span>
+
+                  <div class="file-upload">
+                     <label class="lbl" for="userfile">
+                        <input type="file" name="userfile[]" id="userfile" autocomplete="off">
+                        <span class="">Прикрепить файл (до 10 мб.)</span>
+                     </label>
+                  </div>
+               </div>
+               <div class="info"></div>
+            </div>
+         </div>
+         <div class="formgroup">
+            <button type="submit" class="btn btn-red">Рассчитать стоимость</button>
+            <label class="checkbox person-data">
+               <input type="checkbox" class="" checked="">
+               <span class="person-data__text">Отправляя заявку, Вы даёте согласие на храниние и
+                  <a href="#politics-popup" class="popup-btn">обработку персональных данных</a>
+               </span>
+            </label>
+         </div>
+      </form>
+   </div>
+</div>
+
+<div id="callback-popup" class="zoom-anim-dialog mfp-hide main-popup popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+   <div class="main-popup__bg"></div>
+   <div class="main-popup__content">
+      <form action="#" class="form-column validate mt">
+         <h3 class="main-popup__title">Заказ бесплатного <br> обратного звонка</h3>
+         <div class="formgroup formgroup-first">
+            <span>Ваше имя:</span>
+            <input type="text" name="name" placeholder="Александр">
+         </div>
+         <div class="formgroup">
+            <span>Ваш номер телефона:</span>
+            <input type="tel" name="tell" placeholder="+7 (___) ___-__-__">
+         </div>
+         <div class="formgroup formgroup-last">
+            <button type="submit" class="btn btn-red">Заказать обратный звонок</button>
+            <label class="checkbox person-data">
+               <input type="checkbox" class="" checked="">
+               <span class="person-data__text">Отправляя заявку, Вы даёте согласие на храниние и
+                  <a href="#politics-popup" class="popup-btn">обработку персональных данных</a>
+               </span>
+            </label>
+         </div>
+      </form>
+   </div>
+</div>
+
+<div id="commercial-popup" class="zoom-anim-dialog mfp-hide main-popup popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+   <div class="main-popup__bg">
+      <div class="text">Чтобы получить коммерческое предложение, пожалуйста, заполните форму и нажмите на кнопку.</div>
+      <img src="img/kp-mockup2.png" alt="img">
+      <div class="circle"></div>
+   </div>
+   <div class="main-popup__content">
+      <form action="#" class="form-column validate mt">
+         <h3 class="main-popup__title">Скачать готовое КП</h3>
+         <div class="formgroup formgroup-first">
+            <span>Ваше имя:</span>
+            <input type="text" name="name" placeholder="Александр">
+         </div>
+         <div class="formgroup">
+            <span>Ваш номер телефона:</span>
+            <input type="tel" name="tell" placeholder="+7 (___) ___-__-__">
+         </div>
+         <div class="formgroup">
+            <span>Ваш номер телефона:</span>
+            <input type="email" name="tell" placeholder="ivan.ivanov@example.com">
+         </div>
+         <div class="formgroup formgroup-last">
+            <!-- <button type="submit" class="btn btn-red">Скачать готовое КП</button> -->
+            <input type="submit" class="btn btn-red" value="Отправить обращение">
+            <label class="checkbox person-data">
+               <input type="checkbox" class="" checked="">
+               <span class="person-data__text">Отправляя заявку, Вы даёте согласие на храниние и
+                  <a href="#politics-popup" class="popup-btn">обработку персональных данных</a>
+               </span>
+            </label>
+         </div>
+      </form>
+   </div>
+</div>
+
+<div id="testimonial-popup" class="zoom-anim-dialog mfp-hide main-popup popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+   <div class="main-popup__bg"></div>
+   <div class="main-popup__content">
+      <form action="#" class="form-fw validate">
+         <h3 class="main-popup__title">Оставить отзыв</h3>
+         <div class="rating" data-total-value="0">
+            <div class="rating__item" data-item-value="5"></div>
+            <div class="rating__item" data-item-value="4"></div>
+            <div class="rating__item" data-item-value="3"></div>
+            <div class="rating__item" data-item-value="2"></div>
+            <div class="rating__item" data-item-value="1"></div>
+            <div class="rating__caption">Ваша оценка:</div>
+         </div>
+         <input type="text" id="inputRating" value="Не поставили">
+
+
+         <div class="form-fw__row">
+            <div class="col6">
+               <div class="formgroup">
+                  <span>Ваше имя:</span>
+                  <input type="text" name="name" placeholder="Александр">
+               </div>
+            </div>
+            <div class="col6">
+               <div class="formgroup">
+                  <span>Ваш e-mail:</span>
+                  <input type="text" name="email" placeholder="ivan.ivanov@example.com">
+               </div>
+            </div>
+            <div class="col6">
+               <div class="formgroup">
+                  <span>Ваш номер телефона:</span>
+                  <input type="tel" name="tell" placeholder="+7 (___) ___-__-__">
+               </div>
+            </div>
+            <div class="col6">
+               <div class="formgroup">
+                  <span>Выберите ваш город:</span>
+                  <input type="text" name="city" placeholder="">
+               </div>
+            </div>
+            <div class="col12">
+               <div class="formgroup">
+                  <span>Текст обращения:</span>
+                  <textarea name="" rows="4"
+                     placeholder="Опишите своё впечатление от продуктов Milerd или от нашего сервиса..."></textarea>
+               </div>
+            </div>
+            <div class="col12">
+               <div class="formgroup formgroup-btns">
+                  <label class="checkbox person-data">
+                     <input type="checkbox" class="" checked="">
+                     <span class="person-data__text">Отправляя заявку, Вы даёте согласие на храниние и
+                        <a href="#politics-popup" class="popup-btn">обработку персональных данных</a>
+                     </span>
+                  </label>
+                  <button type="submit" class="btn btn-red">Отправить отзыв</button>
+               </div>
+            </div>
+         </div>
+      </form>
+   </div>
+</div>
+
+<div id="fast-order-popup" class="zoom-anim-dialog mfp-hide main-popup popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+   <div class="main-popup__bg"></div>
+   <div class="main-popup__content">
+      <div class="main-popup__head">
+         <h3 class="main-popup__title">Быстрый заказ</h3>
+         <div class="main-popup__subtitle">Вы не тратите время на заполнение формы заказа в корзине, мы перезвоним и
+            уточним всё по телефону.</div>
+         <div class="main-popup__product">
+            <div class="main-popup__product-img">
+               <!-- <img src="img/fast-order.jpg" alt="img"> -->
+            </div>
+            <span>УФ-рециркулятор Milerd DZR-1 (28 м3/ч)</span>
+         </div>
+      </div>
+      <form action="#" class="form-column validate">
+         <div class="formgroup formgroup-first">
+            <span>Ваше имя:</span>
+            <input type="text" name="name" placeholder="Александр">
+         </div>
+         <div class="formgroup">
+            <span>Ваш номер телефона:</span>
+            <input type="tel" name="tell" placeholder="+7 (___) ___-__-__">
+         </div>
+         <div class="formgroup formgroup-last">
+            <button type="submit" class="btn btn-red">Оформить быстрый заказ</button>
+            <label class="checkbox person-data">
+               <input type="checkbox" class="" checked="">
+               <span class="person-data__text">Отправляя заявку, Вы даёте согласие на храниние и
+                  <a href="#politics-popup" class="popup-btn">обработку персональных данных</a>
+               </span>
+            </label>
+         </div>
+      </form>
+   </div>
+</div>
+
+<div id="send-popup" class="zoom-anim-dialog mfp-hide send-popup popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+
+   <img src="img/ok.svg" alt="ok" class="send-popup__ok">
+   <h3 class="send-popup__title">Готово! <br>Заявка отправлена</h3>
+   <div class="send-popup__subtitle">Спасибо за Ваше обращение, заявка отправлена. В ближайшее время с Вами свяжется
+      представитель Milerd и уточнит все детали, которые Вас интересуют. Сориентирует по срокам и ценам, опишет условия
+      сотрудничества.</div>
+   <div class="send-popup__close">Ок, закрыть</div>
+</div>
+
+<div id="sendOrder-popup" class="zoom-anim-dialog mfp-hide send-popup popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+
+   <img src="img/ok.svg" alt="ok" class="send-popup__ok">
+   <h3 class="send-popup__title">Готово! Ваш заказ</h3>
+   <div class="send-popup__num"><span class="num">№ 247-312</span> принят</div>
+   <div class="send-popup__subtitle">Спасибо за Ваше обращение, заявка отправлена. В ближайшее время с Вами свяжется
+      представитель Milerd и уточнит все детали, которые Вас интересуют. Сориентирует по срокам и ценам, опишет условия
+      сотрудничества.</div>
+   <div class="send-popup__close">Ок, закрыть</div>
+</div>
+
+<div id="delivery-popup" class="zoom-anim-dialog mfp-hide delivery-popup popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+
+   <div class="popup-logo">
+      <img src="img/logo3.svg" alt="logo" class="popup-logo__desctop">
+      <img src="img/logo4.svg" alt="logo" class="popup-logo__mob">
+      <div class="popup-logo__text">Производитель бактерицидных ультрафиолетовых рециркуляторов</div>
+   </div>
+
+   <div class="delivery-popup__title">Как происходит доставка в Milerd:</div>
+   <ul class="delivery-popup__list">
+      <li>В течение <span>15 минут</span> наш менеджер обработает заявку и свяжется с вами для уточнения деталей;</li>
+      <li>В течение <span>3 часов</span> мы доставим ваш по Москве;</li>
+      <li>В течение <span>1 дня</span> мы выполним доставку в пределах 10 км от МКАД;</li>
+      <li>В течение <span>1-2 дней </span> мы доставим ваш заказ по Московской области;</li>
+      <li>В течение <span>1-2 дней</span> мы осуществим доставку по адресу в Санкт-Петербург;</li>
+      <li>Также мы производим доставку <span>по всей России</span> <br> (оставьте, пожалуйста, заявку для получения
+         точного
+         срока доставки
+         и наш менеджер свяжется с вами для уточнения деталей)</li>
+   </ul>
+</div>
+
+<div id="shopping-popup" class="zoom-anim-dialog mfp-hide shopping-popup popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+
+   <div class="shopping-popup__header">
+      <div class="popup-logo">
+         <img src="img/logo3.svg" alt="logo">
+         <div class=" popup-logo__text">Производитель бактерицидных ультрафиолетовых рециркуляторов</div>
+      </div>
+   </div>
+
+   <form action="#" class="validate">
+      <div class="box_hide_info_input">
+         <input type="text" id="allPrise"> <!-- обший прайс -->
+         <input type="text" id="selectDelivery"> <!-- вариант доставки -->
+         <input type="text" id="quantityAllProducts"> <!-- обшее количество товаров -->
+         <input type="text" id="namequantityProducts">
+         <!-- Имя товара , количество товара, цена за единицу товара, обшая цена данного товара -->
+      </div>
+      <div class="shopping-popup__body">
+         <div class="shopping-popup__shop">
+            <h3 class="shopping-popup__title">Моя корзина</h3>
+            <div class="shopping-popup__table">
+               <div class="shopping-table">
+                  <div class="shopping-table__head">
+                     <div class="del"></div>
+                     <div class="name">Товар</div>
+                     <div class="amount">Количество</div>
+                     <div class="price">Цена за 1 шт.</div>
+                  </div>
+                  <div class="shopping-table__body">
+
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="shopping-popup__data">
+            <h3 class="shopping-popup__title">Заполните данные</h3>
+            <div class="formgroup">
+               <span>Ваше имя:</span>
+               <br>
+               <input type="text" name="name" placeholder="Александ|">
+            </div>
+            <div class="formgroup">
+               <span>Ваш номер телефона:</span>
+               <br>
+               <input type="tel" name="tell" placeholder="+7 (___) ___-__-__">
+            </div>
+            <!-- <div class="delivery-block">
+               <label class="radio">
+                  <input type="radio" name="delivery" checked value="Курьером в день заказа">
+                  <span class="text">Курьером в день заказа – <span class="mob-f"><span class="gray">
+                           Бесплатно</span></span></span>
+               </label>
+               <label class="radio">
+                  <input type="radio" name="delivery" value="Бесплатно по России">
+                  <span class="text">Бесплатно по России <span class="mob-f"><img src="img/cdek-sm-logo.png"
+                           alt="logo"></span></span>
+               </label>
+            </div> -->
+            <div class="delivery-block">
+               <div class="delivery-block__item active" data-delivery="Курьером в день заказа">
+                  <span class="text">Курьером в день заказа – <span class="mob-f"><span class="gray">
+                           Бесплатно</span></span></span>
+               </div>
+               <div class="delivery-block__item" data-delivery="Бесплатно по России">
+                  <span class="text">Бесплатно по России <span class="mob-f"><img src="img/cdek-sm-logo.png"
+                           alt="logo"></span></span>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="shopping-popup__footer">
+         <div class="formgroup address">
+            <span>Адрес доставки:</span>
+            <input type="text" name="address" placeholder="Область, город, улица, дом, квартира">
+         </div>
+         <div class="formgroup comment">
+            <span>Комментарий курьеру:</span>
+            <input type="text" name="comment" placeholder="Код на двери подьезда, пожелания по времени итд.">
+         </div>
+         <div class="subtotal">
+            <div class="subtotal__text">
+               Итого: <span class="subtotal__amount"> 10</span> товаров на сумму: </div>
+            <div class="subtotal__summ">134 288 ₽ </div>
+         </div>
+         <button type="submit" class="btn btn-red">Оформить заказ</button>
+      </div>
+   </form>
+</div>
+
+<div id="city-popup" class="zoom-anim-dialog mfp-hide city-popup popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+   <div class="city-popup__head">
+      <h3 class="city-popup__title">Доставка <span class="mob-br"> <br> </span> по городам РФ</h3>
+      <div class="city-nav">
+         <div class="city-nav__item active">
+            <img src="img/delovie-linii.png" alt="logo">
+         </div>
+         <div class="city-nav__item">
+            <img src="img/sdek.png" alt="logo">
+         </div>
+      </div>
+   </div>
+
+   <div class="city-popup__body">
+      <ul class="city-list active">
+         <li class="title">А</li>
+         <li>Абакан: <span>1-2 дня</span></li>
+         <li>Адлер:<span> 2 дня</span></li>
+         <li>Альметьевск:<span>4 дня</span></li>
+         <li>Ангарск:<span>4-6 дней</span></li>
+         <li>Апатиты:<span>1 день</span></li>
+         <li>Арзамас:<span>1-2 дня</span></li>
+         <li>Армавир: <span>1-2 дня</span></li>
+         <li>Архангельск:<span>1-2 дня</span></li>
+         <li>Асбест:<span>1-2 дня</span></li>
+         <li>Астрахань:<span>1-2 дня</span></li>
+         <li>Ачинск:<span>1-2 дня</span></li>
+         <li class="title">Б</li>
+         <li>Балаково:<span>1-2 дня</span></li>
+         <li>Балашиха:<span>1-2 дня</span></li>
+         <li>Барнаул:<span>1-2 дня</span></li>
+         <li>Белгород:<span>1-2 дня</span></li>
+         <li>Белорецк:<span>1-2 дня</span></li>
+         <li>Бердск:<span>1-2 дня</span></li>
+         <li>Березники: <span>1-2 дня</span></li>
+         <li>Бийск:<span>1-2 дня</span></li>
+         <li>Благовещенск: <span>1-2 дня</span></li>
+         <li>Борисоглебск:<span>1-2 дня</span></li>
+         <li>Боровичи:<span>1-2 дня</span></li>
+         <li>Братск:<span>1-2 дня</span></li>
+         <li>Брянск: <span>1-2 дня</span></li>
+         <li>Бузулук:<span> 1-2 дня</span></li>
+         <li class="title">В</li>
+         <li>Великие Луки:<span>1-2 дня</span></li>
+         <li>Великий Новгород: <span>1-2 дня</span></li>
+         <li>Владивосток:<span> 1-2 дня</span></li>
+         <li>Владикавказ: <span>1-2 дня</span></li>
+         <li>Владимир:<span> 1-2 дня</span></li>
+         <li>Волгоград:<span> 1-2 дня</span></li>
+         <li>Волгодонск: <span> 1-2 дня</span></li>
+         <li>Волжский: <span>1-2 дня</span></li>
+         <li>Вологда:<span>1-2 дня</span></li>
+         <li>Воркута:<span> 1-2 дня</span></li>
+         <li>Воронеж: <span>1-2 дня </span></li>
+         <li>Воскресенск: <span>1-2 дня</span></li>
+         <li>Всеволожск:<span> 1-2 дня</span></li>
+         <li>Выборг:<span> 1-2 дня</span></li>
+         <li class="title">Г</li>
+         <li>Гатчина: <span>1-2 дня</span></li>
+         <li>Глазов: <span>1-2 дня</span></li>
+         <li>Горелово: <span>1-2 дня</span></li>
+         <li>Грозный:<span> 1-2 дня</span></li>
+         <li class="title">Д</li>
+         <li>Дзержинск: <span>1-2 дня</span></li>
+         <li>Димитровград: <span>1-2 дня</span></li>
+         <li>Дмитров:<span> 1-2 дня</span></li>
+         <li>Домодедово: <span>1-2 дня</span></li>
+         <li class="title">Е</li>
+         <li>Ейск: <span>1-2 дня</span></li>
+         <li>Екатеринбург: <span>1-2 дня</span></li>
+         <li class="title">Ж</li>
+         <li>Железнодорожный: <span>1-2 дня</span></li>
+         <li class="title">З</li>
+         <li>Забайкальск: <span>1-2 дня</span></li>
+         <li>Зеленоград: <span>1-2 дня</span></li>
+         <li>Златоуст:<span> 1-2 дня</span></li>
+         <li class="title">И</li>
+         <li>Иваново: <span>2 дня</span></li>
+         <li>Ижевск:<span> 2 дня</span></li>
+         <li>Иркутск:<span> 2 дня</span></li>
+         <li class="title">Й</li>
+         <li>Йошкар-Ола: <span>2 дня</span></li>
+         <li class="title">К</li>
+         <li>Казань: <span>2 дня</span></li>
+         <li>Калининград: <span>2 дня</span></li>
+         <li>Калуга:<span> 2 дня</span></li>
+         <li>Каменск-Уральский: <span>2 дня</span></li>
+         <li>Каменск-Шахтинский: <span> 2 дня</span></li>
+         <li>Камышин: <span>2 дня</span></li>
+         <li>Качканар: <span>2 дня</span></li>
+         <li>Кемерово: <span>2 дня</span></li>
+         <li>Керчь:<span>2 дня</span></li>
+         <li>Киров:<span> 2 дня</span></li>
+         <li>Кирово-Чепецк: <span>2 дня</span></li>
+         <li>Клин: <span>2 дня</span></li>
+         <li>Клинцы: <span>2 дня</span></li>
+         <li>Ковров:<span> 2 дня</span></li>
+         <li>Коломна: <span>2 дня</span></li>
+         <li>Колпино: <span>2 дня</span></li>
+         <li>Комсомольск-на-Амуре: <span>2 дня</span></li>
+         <li>Кострома: <span>2 дня</span></li>
+         <li>Котлас: <span>2 дня</span></li>
+         <li>Красногорск:<span> 2 дня</span></li>
+         <li>Краснодар: <span> 2 дня</span></li>
+         <li>Краснокамск: <span>2 дня</span></li>
+         <li>Красноярск: <span>2 дня</span></li>
+         <li>Кузнецк: <span>2 дня</span></li>
+         <li>Курган: <span>2 дня</span></li>
+         <li>Курск:<span> 2 дня</span></li>
+         <li class="title">Л</li>
+         <li>Ленинск-Кузнецкий:<span> 2 дня</span></li>
+         <li>Ливны:<span> 2 дня</span></li>
+         <li>Липецк:<span> 2 дня</span></li>
+         <li class="title">М</li>
+         <li>Магнитогорск: <span>2 дня</span></li>
+         <li>Майкоп:<span> 2 дня</span></li>
+         <li>Махачкала: <span>2 дня</span></li>
+         <li>Миасс:<span> 2 дня</span></li>
+         <li>Москва: <span>2 дня</span></li>
+         <li>Мурманск: <span>2 дня</span></li>
+         <li>Муром: <span>2 дня</span></li>
+         <li>Мытищи: <span>2 дня</span></li>
+         <li class="title">Н</li>
+         <li>Набережные Челны:<span> 2 дня</span></li>
+         <li>Нальчик: <span>2 дня</span></li>
+         <li>Находка: <span>2 дня</span></li>
+         <li>Нефтекамск:<span> 2 дня</span></li>
+         <li>Нижневартовск: <span>2 дня</span></li>
+         <li>Нижнекамск: <span>2 дня</span></li>
+         <li>Нижний Новгород: <span>2 дня</span></li>
+         <li>Нижний Тагил: <span>2 дня</span></li>
+         <li>Новокузнецк: <span>2 дня</span></li>
+         <li>Новомосковск:<span> 2 дня</span></li>
+         <li>Новороссийск: <span>2 дня</span></li>
+         <li>Новосибирск: <span>2 дня</span></li>
+         <li>Новочебоксарск: <span>2 дня</span></li>
+         <li>Новочеркасск: <span>2 дня</span></li>
+         <li>Новый Уренгой: <span>2 дня</span></li>
+         <li>Ногинск: <span>2 дня</span></li>
+         <li>Ноябрьск: <span>2 дня</span></li>
+         <li class="title">О</li>
+         <li>Обнинск: <span>2 дня</span></li>
+         <li>Одинцово:<span> 2 дня</span></li>
+         <li>Октябрьский: <span>2 дня</span></li>
+         <li>Омск: <span>2 дня</span></li>
+         <li>Орел:<span> 2 дня</span></li>
+         <li>Оренбург:<span> 2 дня</span></li>
+         <li>Орехово-Зуево:<span> 2 дня</span></li>
+         <li>Орск:<span> 2 дня</span></li>
+         <li class="title">П</li>
+         <li>Пенза:<span> 2 дня</span></li>
+         <li>Первоуральск: <span>2 дня</span></li>
+         <li>Пермь: <span>2 дня</span></li>
+         <li>Петрозаводск: <span>2 дня</span></li>
+         <li>Подольск:<span> 2 дня</span></li>
+         <li>Псков: <span>2 дня</span></li>
+         <li>Пушкин:<span> 2 дня</span></li>
+         <li>Пушкино: <span>2 дня</span></li>
+         <li>Пятигорск:<span> 2 дня</span></li>
+         <li class="title">Р</li>
+         <li>Рославль: <span>2 дня</span></li>
+         <li>Россошь:<span> 2 дня</span></li>
+         <li>Ростов-на-Дону: <span>2 дня</span></li>
+         <li>Рыбинск: <span>2 дня</span></li>
+         <li>Рязань:<span> 2 дня</span></li>
+         <li class="title">С</li>
+         <li>Салават: <span>2 дня</span></li>
+         <li>Самара: <span>2 дня</span></li>
+         <li>Санкт-Петербург: <span>2 дня</span></li>
+         <li>Саранск:<span> 2 дня</span></li>
+         <li>Саратов: <span>2 дня</span></li>
+         <li>Севастополь:<span> 2 дня</span></li>
+         <li>Северодвинск: <span>2 дня</span></li>
+         <li>Сергиев Посад:<span> 2 дня</span></li>
+         <li>Серов:<span> 2 дня</span></li>
+         <li>Серпухов: <span>2 дня</span></li>
+         <li>Симферополь:<span> 2 дня</span></li>
+         <li>Смоленск:<span> 2 дня</span></li>
+         <li>Солнечногорск:<span> 2 дня</span></li>
+         <li>Сосновый Бор: <span>2 дня</span></li>
+         <li>Сочи: <span>2 дня</span></li>
+         <li>Ставрополь: <span>2 дня</span></li>
+         <li>Старый Оскол: <span>2 дня</span></li>
+         <li>Стерлитамак: <span>2 дня</span></li>
+         <li>Ступино: <span>2 дня</span></li>
+         <li>Сургут:<span> 2 дня</span></li>
+         <li>Сызрань:<span> 2 дня</span></li>
+         <li>Сыктывкар: <span>2 дня</span></li>
+         <li class="title">Т</li>
+         <li>Таганрог:<span> 2 дня</span></li>
+         <li>Тамбов: <span>2 дня</span></li>
+         <li>Тверь: <span>2 дня</span></li>
+         <li>Тобольск:<span> 2 дня</span></li>
+         <li>Тольятти: <span>2 дня</span></li>
+         <li>Томилино: <span>2 дня</span></li>
+         <li>Томск: <span>2 дня</span></li>
+         <li>Тула: <span>2 дня</span></li>
+         <li>Тюмень:<span> 2 дня</span></li>
+         <li class="title">У</li>
+         <li>Улан-Удэ:<span> 2 дня</span></li>
+         <li>Ульяновск:<span> 2 дня</span></li>
+         <li>Усинск: <span>2 дня</span></li>
+         <li>Уссурийск: <span>2 дня</span></li>
+         <li>Усть-Кут:<span> 2 дня</span></li>
+         <li>Уфа: <span>2 дня</span></li>
+         <li>Ухта: <span>2 дня</span></li>
+         <li class="title">Х</li>
+         <li>Хабаровск:<span> 2 дня</span></li>
+         <li>Ханты-Мансийск:<span> 2 дня</span></li>
+         <li class="title">Ч</li>
+         <li>Чебоксары: <span>2 дня</span></li>
+         <li>Челябинск: <span>2 дня</span></li>
+         <li>Череповец: <span>2 дня</span></li>
+         <li>Чехов:<span>2 дня</span></li>
+         <li>Чита:<span> 2 дня</span></li>
+         <li class="title">Ш</li>
+         <li>Шахты:<span> 2 дня</span></li>
+         <li class="title">Э</li>
+         <li>Энгельс: <span>2 дня</span></li>
+         <li class="title">Я</li>
+         <li>Ялта: <span>2 дня</span></li>
+         <li>Ярославль:<span>2 дня</span></li>
+      </ul>
+      <ul class="city-list">
+         <li class="title">А</li>
+         <li>Абакан: <span>1-2 дня</span></li>
+         <li>Адлер:<span> 2 дня</span></li>
+         <li>Альметьевск:<span>4 дня</span></li>
+         <li>Ангарск:<span>4-6 дней</span></li>
+         <li>Апатиты:<span>1 день</span></li>
+         <li>Арзамас:<span>1-2 дня</span></li>
+         <li>Армавир: <span>1-2 дня</span></li>
+         <li>Архангельск:<span>1-2 дня</span></li>
+         <li>Асбест:<span>1-2 дня</span></li>
+         <li>Астрахань:<span>1-2 дня</span></li>
+         <li>Ачинск:<span>1-2 дня</span></li>
+         <li class="title">Б</li>
+         <li>Балаково:<span>1-2 дня</span></li>
+         <li>Балашиха:<span>1-2 дня</span></li>
+         <li>Барнаул:<span>1-2 дня</span></li>
+         <li>Белгород:<span>1-2 дня</span></li>
+         <li>Белорецк:<span>1-2 дня</span></li>
+         <li>Бердск:<span>1-2 дня</span></li>
+         <li>Березники: <span>1-2 дня</span></li>
+         <li>Бийск:<span>1-2 дня</span></li>
+         <li>Благовещенск: <span>1-2 дня</span></li>
+         <li>Борисоглебск:<span>1-2 дня</span></li>
+         <li>Боровичи:<span>1-2 дня</span></li>
+         <li>Братск:<span>1-2 дня</span></li>
+         <li>Брянск: <span>1-2 дня</span></li>
+         <li>Бузулук:<span> 1-2 дня</span></li>
+         <li class="title">В</li>
+         <li>Великие Луки:<span>1-2 дня</span></li>
+         <li>Великий Новгород: <span>1-2 дня</span></li>
+         <li>Владивосток:<span> 1-2 дня</span></li>
+         <li>Владикавказ: <span>1-2 дня</span></li>
+         <li>Владимир:<span> 1-2 дня</span></li>
+         <li>Волгоград:<span> 1-2 дня</span></li>
+         <li>Волгодонск: <span> 1-2 дня</span></li>
+         <li>Волжский: <span>1-2 дня</span></li>
+         <li>Вологда:<span>1-2 дня</span></li>
+         <li>Воркута:<span> 1-2 дня</span></li>
+         <li>Воронеж: <span>1-2 дня </span></li>
+         <li>Воскресенск: <span>1-2 дня</span></li>
+         <li>Всеволожск:<span> 1-2 дня</span></li>
+         <li>Выборг:<span> 1-2 дня</span></li>
+         <li class="title">Г</li>
+         <li>Гатчина: <span>1-2 дня</span></li>
+         <li>Глазов: <span>1-2 дня</span></li>
+         <li>Горелово: <span>1-2 дня</span></li>
+         <li>Грозный:<span> 1-2 дня</span></li>
+         <li class="title">Д</li>
+         <li>Дзержинск: <span>1-2 дня</span></li>
+         <li>Димитровград: <span>1-2 дня</span></li>
+         <li>Дмитров:<span> 1-2 дня</span></li>
+         <li>Домодедово: <span>1-2 дня</span></li>
+         <li class="title">Е</li>
+         <li>Ейск: <span>1-2 дня</span></li>
+         <li>Екатеринбург: <span>1-2 дня</span></li>
+         <li class="title">Ж</li>
+         <li>Железнодорожный: <span>1-2 дня</span></li>
+         <li class="title">З</li>
+         <li>Забайкальск: <span>1-2 дня</span></li>
+         <li>Зеленоград: <span>1-2 дня</span></li>
+         <li>Златоуст:<span> 1-2 дня</span></li>
+         <li class="title">И</li>
+         <li>Иваново: <span>2 дня</span></li>
+         <li>Ижевск:<span> 2 дня</span></li>
+         <li>Иркутск:<span> 2 дня</span></li>
+         <li class="title">Й</li>
+         <li>Йошкар-Ола: <span>2 дня</span></li>
+         <li class="title">К</li>
+         <li>Казань: <span>2 дня</span></li>
+         <li>Калининград: <span>2 дня</span></li>
+         <li>Калуга:<span> 2 дня</span></li>
+         <li>Каменск-Уральский: <span>2 дня</span></li>
+         <li>Каменск-Шахтинский: <span> 2 дня</span></li>
+         <li>Камышин: <span>2 дня</span></li>
+         <li>Качканар: <span>2 дня</span></li>
+         <li>Кемерово: <span>2 дня</span></li>
+         <li>Керчь:<span>2 дня</span></li>
+         <li>Киров:<span> 2 дня</span></li>
+         <li>Кирово-Чепецк: <span>2 дня</span></li>
+         <li>Клин: <span>2 дня</span></li>
+         <li>Клинцы: <span>2 дня</span></li>
+         <li>Ковров:<span> 2 дня</span></li>
+         <li>Коломна: <span>2 дня</span></li>
+         <li>Колпино: <span>2 дня</span></li>
+         <li>Комсомольск-на-Амуре: <span>2 дня</span></li>
+         <li>Кострома: <span>2 дня</span></li>
+         <li>Котлас: <span>2 дня</span></li>
+         <li>Красногорск:<span> 2 дня</span></li>
+         <li>Краснодар: <span> 2 дня</span></li>
+         <li>Краснокамск: <span>2 дня</span></li>
+         <li>Красноярск: <span>2 дня</span></li>
+         <li>Кузнецк: <span>2 дня</span></li>
+         <li>Курган: <span>2 дня</span></li>
+         <li>Курск:<span> 2 дня</span></li>
+         <li class="title">Л</li>
+         <li>Ленинск-Кузнецкий:<span> 2 дня</span></li>
+         <li>Ливны:<span> 2 дня</span></li>
+         <li>Липецк:<span> 2 дня</span></li>
+         <li class="title">М</li>
+         <li>Магнитогорск: <span>2 дня</span></li>
+         <li>Майкоп:<span> 2 дня</span></li>
+         <li>Махачкала: <span>2 дня</span></li>
+         <li>Миасс:<span> 2 дня</span></li>
+         <li>Москва: <span>2 дня</span></li>
+         <li>Мурманск: <span>2 дня</span></li>
+         <li>Муром: <span>2 дня</span></li>
+         <li>Мытищи: <span>2 дня</span></li>
+         <li class="title">Н</li>
+         <li>Набережные Челны:<span> 2 дня</span></li>
+         <li>Нальчик: <span>2 дня</span></li>
+         <li>Находка: <span>2 дня</span></li>
+         <li>Нефтекамск:<span> 2 дня</span></li>
+         <li>Нижневартовск: <span>2 дня</span></li>
+         <li>Нижнекамск: <span>2 дня</span></li>
+         <li>Нижний Новгород: <span>2 дня</span></li>
+         <li>Нижний Тагил: <span>2 дня</span></li>
+         <li>Новокузнецк: <span>2 дня</span></li>
+         <li>Новомосковск:<span> 2 дня</span></li>
+         <li>Новороссийск: <span>2 дня</span></li>
+         <li>Новосибирск: <span>2 дня</span></li>
+         <li>Новочебоксарск: <span>2 дня</span></li>
+         <li>Новочеркасск: <span>2 дня</span></li>
+         <li>Новый Уренгой: <span>2 дня</span></li>
+         <li>Ногинск: <span>2 дня</span></li>
+         <li>Ноябрьск: <span>2 дня</span></li>
+         <li class="title">О</li>
+         <li>Обнинск: <span>2 дня</span></li>
+         <li>Одинцово:<span> 2 дня</span></li>
+         <li>Октябрьский: <span>2 дня</span></li>
+         <li>Омск: <span>2 дня</span></li>
+         <li>Орел:<span> 2 дня</span></li>
+         <li>Оренбург:<span> 2 дня</span></li>
+         <li>Орехово-Зуево:<span> 2 дня</span></li>
+         <li>Орск:<span> 2 дня</span></li>
+         <li class="title">П</li>
+         <li>Пенза:<span> 2 дня</span></li>
+         <li>Первоуральск: <span>2 дня</span></li>
+         <li>Пермь: <span>2 дня</span></li>
+         <li>Петрозаводск: <span>2 дня</span></li>
+         <li>Подольск:<span> 2 дня</span></li>
+         <li>Псков: <span>2 дня</span></li>
+         <li>Пушкин:<span> 2 дня</span></li>
+         <li>Пушкино: <span>2 дня</span></li>
+         <li>Пятигорск:<span> 2 дня</span></li>
+         <li class="title">Р</li>
+         <li>Рославль: <span>2 дня</span></li>
+         <li>Россошь:<span> 2 дня</span></li>
+         <li>Ростов-на-Дону: <span>2 дня</span></li>
+         <li>Рыбинск: <span>2 дня</span></li>
+         <li>Рязань:<span> 2 дня</span></li>
+         <li class="title">С</li>
+         <li>Салават: <span>2 дня</span></li>
+         <li>Самара: <span>2 дня</span></li>
+         <li>Санкт-Петербург: <span>2 дня</span></li>
+         <li>Саранск:<span> 2 дня</span></li>
+         <li>Саратов: <span>2 дня</span></li>
+         <li>Севастополь:<span> 2 дня</span></li>
+         <li>Северодвинск: <span>2 дня</span></li>
+         <li>Сергиев Посад:<span> 2 дня</span></li>
+         <li>Серов:<span> 2 дня</span></li>
+         <li>Серпухов: <span>2 дня</span></li>
+         <li>Симферополь:<span> 2 дня</span></li>
+         <li>Смоленск:<span> 2 дня</span></li>
+         <li>Солнечногорск:<span> 2 дня</span></li>
+         <li>Сосновый Бор: <span>2 дня</span></li>
+         <li>Сочи: <span>2 дня</span></li>
+         <li>Ставрополь: <span>2 дня</span></li>
+         <li>Старый Оскол: <span>2 дня</span></li>
+         <li>Стерлитамак: <span>2 дня</span></li>
+         <li>Ступино: <span>2 дня</span></li>
+         <li>Сургут:<span> 2 дня</span></li>
+         <li>Сызрань:<span> 2 дня</span></li>
+         <li>Сыктывкар: <span>2 дня</span></li>
+         <li class="title">Т</li>
+         <li>Таганрог:<span> 2 дня</span></li>
+         <li>Тамбов: <span>2 дня</span></li>
+         <li>Тверь: <span>2 дня</span></li>
+         <li>Тобольск:<span> 2 дня</span></li>
+         <li>Тольятти: <span>2 дня</span></li>
+         <li>Томилино: <span>2 дня</span></li>
+         <li>Томск: <span>2 дня</span></li>
+         <li>Тула: <span>2 дня</span></li>
+         <li>Тюмень:<span> 2 дня</span></li>
+         <li class="title">У</li>
+         <li>Улан-Удэ:<span> 2 дня</span></li>
+         <li>Ульяновск:<span> 2 дня</span></li>
+         <li>Усинск: <span>2 дня</span></li>
+         <li>Уссурийск: <span>2 дня</span></li>
+         <li>Усть-Кут:<span> 2 дня</span></li>
+         <li>Уфа: <span>2 дня</span></li>
+         <li>Ухта: <span>2 дня</span></li>
+         <li class="title">Х</li>
+         <li>Хабаровск:<span> 2 дня</span></li>
+         <li>Ханты-Мансийск:<span> 2 дня</span></li>
+         <li class="title">Ч</li>
+         <li>Чебоксары: <span>2 дня</span></li>
+         <li>Челябинск: <span>2 дня</span></li>
+         <li>Череповец: <span>2 дня</span></li>
+         <li>Чехов:<span>2 дня</span></li>
+         <li>Чита:<span> 2 дня</span></li>
+         <li class="title">Ш</li>
+         <li>Шахты:<span> 2 дня</span></li>
+         <li class="title">Э</li>
+         <li>Энгельс: <span>2 дня</span></li>
+         <li class="title">Я</li>
+         <li>Ялта: <span>2 дня</span></li>
+         <li>Ярославль:<span>2 дня</span></li>
+      </ul>
+   </div>
+</div>
+
+<div id="politics-popup" class="zoom-anim-dialog mfp-hide politics-popup popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+   <div class="politics-popup__title">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ.</div>
+   <span class="politics-popup__subtitle">1. Общие положения</span>
+   <ul>
+      <li>1.1. Настоящая Политика определяет порядок обработки и защиты компании «Milerd» информации о
+         физических
+         лицах(далее - Пользователи), которая может быть получена «Milerd» при использовании Пользователем услуг,
+         предоставляемых посредством сайта <span class="site_politic">«Milerd»</span>.
+      </li>
+      <li>1.2. Цель настоящей Политики - обеспечить защиту информации о Пользователях, включая полученные
+         персональные данные, от несанкционированного доступа и разглашения.</li>
+      <li>1.3. Отношения, имеющие отношение к сбору, хранению, распространению и защите информации,
+         предоставляемой Пользователем, регулируются настоящей Политикой, иными официальными документами «Milerd» и
+         действующим законодательством
+         Российской Федерации.</li>
+      <li>1.4. Регистрируясь на Сайте и используя Сайт и Сервисы, Пользователь выражает свое полное согласие с
+         условиями настоящей Политики.</li>
+      <li>1.5. В случае несогласии с условиями настоящей Политики, Пользователи должен воздержаться от
+         использования Сайта и/или каких-либо Сервисов, доступных при использовании Сайта.</li>
+   </ul>
+   <span class="politics-popup__subtitle">2. Цели сбора и обработки персональной информации пользователей</span>
+   <ul>
+      <li>2.1. Обработка персональных данных Пользователя производится в соответствии с законодательством
+         Российской Федерации.
+         <br>Персональные данные Пользователя, переданные «Milerd», обрабатываются с целью:
+         <br>Идентификации стороны в рамках соглашений и договоров с «Milerd»;
+         <br>Предоставления Пользователю услуг;
+         <br>Таргетирования рекламных материалов;
+         <br>Проверки, исследования и анализа данных, дающих возможность поддерживать, разрабатывать и улучшать
+         Сервисы и разделы Сайта;
+         <br>Проведения статистических и иных исследований на основе обезличенных данных.</li>
+   </ul>
+   <span class="politics-popup__subtitle">3. Условия обработки персональной информации предоставленной
+      Пользователем и ее
+      передачи третьим лицам</span>
+   <ul>
+      <li>3.1. «Milerd» принимает все необходимые меры для защиты персональных данных Пользователя от случайного
+         доступа, изменения, раскрытия, блокирования, уничтожения, неправомерных действий.</li>
+      <li>3.2. «Milerd» вправе передать персональные данные Пользователя только тем работникам, подрядчикам и
+         аффилированным лицам, которым эта информация необходима для оказания услуги пользователю или обеспечения
+         функционирования
+         Сайта и Сервисов.</li>
+      <li>3.3. «Milerd» вправе использовать предоставленную Пользователем информацию, в том числе персональные
+         данные, в целях обеспечения соблюдения требований действующего законодательства Российской Федерации (в
+         том числе
+         в целях предупреждения и/или пресечения незаконных и/или противоправных действий Пользователей).
+         Раскрытие предоставленной Пользователем информации может быть произведено лишь в соответствии с
+         действующим законодательством
+         Российской Федерации по требованию суда, правоохранительных органов, а также в иных предусмотренных
+         законодательством Российской Федерации случаях.</li>
+   </ul>
+   <span class="politics-popup__subtitle">4. Пользование Сайтом и Сервисами</span>
+   <ul>
+      <li>4.1. Используя Сайт и Сервисы, пользователь подтверждает, что:
+         <br>обладает правами, позволяющими ему осуществлять регистрацию и использовать Услуги сайта;
+         <br>указывает достоверную информацию о себе в необходимых объемах для пользования Услугами Сайта.
+         Обязательные для заполнения поля помечены специальным образом, иная информация предоставляется
+         Пользователем по его усмотрению;
+         <br>осознает, что информация на Сайте, размещаемая Пользователем о себе, может стать доступной для
+         третьих лиц, может быть скопирован и распространена ими;
+         <br>согласен с настоящей Политикой и принимает все указанные в ней права и обязанности. Оно дает «Milerd»
+         право на сбор, хранение, обработку и передачу третьим лицам персональных данных, предоставляемых
+         Пользователем.</li>
+      <li>4.2. «Milerd» не проверяет достоверность полученной информации, кроме ряда случаев, когда такая проверка
+         необходима для исполнения обязательств по предоставлению Услуги Пользователю.</li>
+   </ul>
+   <span class="politics-popup__subtitle">5. В рамках настоящей Политики под «персональной информацией
+      Пользователя»
+      понимаются:</span>
+   <ul>
+      <li>5.1. Данные, которые пользователь сообщает самостоятельно при пользовании Сайтом и Сервисами.
+         Информация, которая входит в данные, но не ограничивается ими: имя, фамилия, пол, номер мобильного
+         телефона, адрес электронной почты,
+         семейное положение, дата рождения, родной город, домашний адрес, информация об образовании, о роде
+         деятельности.</li>
+      <li>5.2. Данные, передающиеся Сервисам в процессе их использования с помощью установленного на устройстве
+         Пользователя программного обеспечения. В том числе IP-адрес, информация из cookie, информация о браузере
+         пользователя (или
+         иной программе, с помощью которой осуществляется доступ к Сервисам), время доступа, адрес запрашиваемой
+         страницы.</li>
+      <li>5.3 Иная информация о Пользователе, сбор и/или предоставление которой определено в Регулирующих
+         документах отдельных Сервисов «Milerd».</li>
+   </ul>
+   <span class="politics-popup__subtitle">6. Изменение Политики конфиденциальности. Применимое
+      законодательство</span>
+   <ul>
+      <li>6.1. «Milerd» имеет право вносить изменения в настоящую Политику конфиденциальности. После внесения
+         изменений в последней редакции указывается дата обновления. Новая редакция Политики вступает в силу с
+         момента ее размещения,
+         если иное не предусмотрено новой редакцией Политики.</li>
+      <li>6.2. К настоящей Политике и отношениям между Пользователем и «Milerd» возникающим в связи с применением
+         Политики конфиденциальности, подлежит применению право Российской Федерации.</li>
+   </ul>
+   <span class="politics-popup__subtitle">7. Обратная связь. Вопросы и предложения</span>
+   <ul>
+      <li>7.1. Все предложения или вопросы по поводу настоящей Политики следует сообщать в Службу поддержки
+         «Milerd».</li>
+   </ul>
+</div>
+
+
+
+<div id="error-popup" class="zoom-anim-dialog mfp-hide popup-error popup">
+   <div class="btn-close">
+      <svg>
+         <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+   </div>
+   <div class="popup-error__title">Что то пошло не так,<br> попробуйте позже!</div>
+</div>
+
+
+
+<!-- <script>
+   var map;
+   var InforObj = [];
+
+   var centerCords = {
+      lat: 55.799712,
+      lng: 37.593858
+   };
+
+   var markersOnMap = [
+      {
+         placeName: "г. Москва",
+         address: "127018, Россия, Москва, Складочная улица, 1с1",
+         LatLng: [
+            {
+               lat: 55.799712,
+               lng: 37.593858
+            }
+         ]
+      }
+   ];
+
+   function addMarker() {
+      var image = {
+         url:
+            "img/pin.svg",
+      };
+
+      for (var i = 0; i < markersOnMap.length; i++) {
+
+         var contentString =
+            '<div id="content">' + markersOnMap[i].address;
+
+         const marker = new google.maps.Marker({
+            position: markersOnMap[i].LatLng[0],
+            map: map,
+
+            icon: image
+         });
+
+         const infowindow = new google.maps.InfoWindow({
+            content: contentString
+         });
+
+         marker.addListener("click", function () {
+            closeOtherInfo();
+            infowindow.open(marker.get("map"), marker);
+            InforObj[0] = infowindow;
+         });
+
+         google.maps.event.addListener(map, "click", function (event) {
+            infowindow.close();
+         });
+      }
+   }
+
+   function closeOtherInfo() {
+      if (InforObj.length > 0) {
+         InforObj[0].set("marker", null);
+         InforObj[0].close();
+         InforObj.length = 0;
+      }
+   }
+
+   function initMap() {
+      var mapOptions = {
+         zoom: 16,
+         gestureHandling: 'cooperative',
+         center: centerCords,
+         styles: [{ "featureType": "administrative", "elementType": "all", "stylers": [{ "saturation": "-100" }] }, { "featureType": "administrative.province", "elementType": "all", "stylers": [{ "visibility": "off" }] }, { "featureType": "landscape", "elementType": "all", "stylers": [{ "saturation": -100 }, { "lightness": 65 }, { "visibility": "on" }] }, { "featureType": "poi", "elementType": "all", "stylers": [{ "saturation": -100 }, { "lightness": "50" }, { "visibility": "simplified" }] }, { "featureType": "road", "elementType": "all", "stylers": [{ "saturation": "-100" }] }, { "featureType": "road.highway", "elementType": "all", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "road.arterial", "elementType": "all", "stylers": [{ "lightness": "30" }] }, { "featureType": "road.local", "elementType": "all", "stylers": [{ "lightness": "40" }] }, { "featureType": "transit", "elementType": "all", "stylers": [{ "saturation": -100 }, { "visibility": "simplified" }] }, { "featureType": "water", "elementType": "geometry", "stylers": [{ "hue": "#ffff00" }, { "lightness": -25 }, { "saturation": -97 }] }, { "featureType": "water", "elementType": "labels", "stylers": [{ "lightness": -25 }, { "saturation": -100 }] }]
+      };
+      map = new google.maps.Map(document.getElementById('map'), mapOptions);
+      addMarker();
+
+      window.onload = function () {
+         initMap();
+      };
+   }
+
+</script>
+
+
+<script type="text/javascript"
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB998msEJSpJZzVtG03uEhxjAq8Q_32rhg&callback=initMap"></script> -->
+
+
+<script src="scripts/app.min.js"></script>
+<script src="scripts/main.js?=1.05"></script>
+</body>
+
+</html>

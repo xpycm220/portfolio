@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+
+   <title>Distel sitemap</title>
+
+
+   <link rel="stylesheet" href="css/app.min.css">
+   <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+   <div class="ggg">
+      <svg class="tap-icon">
+         <use xlink:href='img/sprite.svg#tap'></use>
+      </svg>
+   </div>
+
+
+   <button id="push">push</button>
+
+   <section class="section-sitemap">
+      <div class='container'>
+         <div class="title2">Попапы</div>
+         <div class="sitemap-row">
+            <a href="#pamphlet-popup" class="btn-popup">Каталог</a>
+            <a href="#send-popup" class="btn-popup">Отправленно</a>
+            <a href="#discount-popup" class="btn-popup">Скидка</a>
+            <a href="#card-popup" class="btn-popup">Карточка попапа</a>
+            <a href="#protocol-popup" class="btn-popup">Образец протокола</a>
+            <a href="img/certificate.jpg" data-fancybox>Сертификат</a>
+            <a href="#mounting-popup" class="btn-popup">Монтажные работы</a>
+            <a href="#service-popup" class="btn-popup">Сервис</a>
+            <a href="#call-popup" class="btn-popup">Звонок</a>
+            <a href="#map-popup" class="btn-popup">Карта</a>
+            <a href="#quiz-popup" class="btn-popup">Квиз</a>
+         </div>
+      </div>
+   </section>
+
+
+   <div id="quiz-popup" class="popup zoom-anim-dialog mfp-hide">
+      <div class="popup__inner">
+         <div class="quiz">
+            <div class="quiz-step active">
+               <div class="quiz-step__title title3"><span class="fw-700">Объект для которого</span> <br> подбираете
+                  систему</div>
+               <div class="quiz-step__subtitle">Подберём оптимальную систему водоочистки для Вашего помещения</div>
+
+               <div class="quiz-step__questions">
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#home1'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">Дача</div>
+                        <input type="radio" name="step1" value="Объект: Дача">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#home2'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">Частный <br> дом</div>
+                        <input type="radio" name="step1" value="Объект: Частный дом">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#home3'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">Коттедж</div>
+                        <input type="radio" name="step1" value="Объект: Коттедж">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+               </div>
+
+               <div class="quiz-control">
+                  <button class="btn quiz-control__prev" disabled>Назад</button>
+                  <div class="quiz-control__info">
+                     <div class="quiz-control__progressbar">
+                        <div class="quiz-control__progress"></div>
+                     </div>
+                     <div class="quiz-control__counter">
+                        <div class="quiz-control__counter_cur">1</div>
+                        <div class="quiz-control__counter__text">из</div>
+                        <div class="quiz-control__counter__all">6</div>
+                     </div>
+                  </div>
+                  <button class="btn quiz-control__next" disabled>Далее</button>
+               </div>
+            </div>
+
+            <div class="quiz-step">
+               <div class="quiz-step__title title3"><span class="fw-700">Количество людей</span> <br> проживающих в
+                  доме?
+               </div>
+               <div class="quiz-step__subtitle">Мы узнаем производительность Вешей системы водоочистки</div>
+
+               <div class="quiz-step__questions">
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#family1'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">До 2-х<br>
+                           человек</div>
+                        <input type="radio" name="step2" value="Количество людей: До 2-х человек">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#family2'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">3-5 <br>
+                           человек</div>
+                        <input type="radio" name="step2" value="Количество людей: 3-5 человек">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#family3'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">Более <br>
+                           6 человек</div>
+                        <input type="radio" name="step2" value="Количество людей: Более 6 человек">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+               </div>
+
+               <div class="quiz-control">
+                  <button class="btn quiz-control__prev">Назад</button>
+                  <div class="quiz-control__info">
+                     <div class="quiz-control__progressbar">
+                        <div class="quiz-control__progress"></div>
+                     </div>
+                     <div class="quiz-control__counter">
+                        <div class="quiz-control__counter_cur">1</div>
+                        <div class="quiz-control__counter__text">из</div>
+                        <div class="quiz-control__counter__all">6</div>
+                     </div>
+                  </div>
+                  <button class="btn quiz-control__next" disabled>Далее</button>
+               </div>
+            </div>
+
+            <div class="quiz-step">
+               <div class="quiz-step__title title3"><span class="fw-700">Источник воды</span> <br> в вашем доме
+               </div>
+               <div class="quiz-step__subtitle">У воды разная особенность в зависимости от источника</div>
+
+               <div class="quiz-step__questions">
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#water1'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">Скважина</div>
+                        <input type="radio" name="step3" value="Источник воды: Скважина">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#water2'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">Колодец<br>
+                           человек</div>
+                        <input type="radio" name="step3" value="Источник воды: Колодец">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#water3'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">Водопровод</div>
+                        <input type="radio" name="step3" value="Источник воды: Водопровод">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+               </div>
+
+               <div class="quiz-control">
+                  <button class="btn quiz-control__prev">Назад</button>
+                  <div class="quiz-control__info">
+                     <div class="quiz-control__progressbar">
+                        <div class="quiz-control__progress"></div>
+                     </div>
+                     <div class="quiz-control__counter">
+                        <div class="quiz-control__counter_cur">1</div>
+                        <div class="quiz-control__counter__text">из</div>
+                        <div class="quiz-control__counter__all">6</div>
+                     </div>
+                  </div>
+                  <button class="btn quiz-control__next" disabled>Далее</button>
+               </div>
+            </div>
+
+            <div class="quiz-step">
+               <div class="quiz-step__title title3"><span class="fw-700">Вы уже сделали</span><br> анализ воды?
+               </div>
+               <div class="quiz-step__subtitle">Система водоочистки подбирается на основе показателей анализа воды
+               </div>
+
+               <div class="quiz-step__questions">
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#check1'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">Да</div>
+                        <input type="radio" name="step4" value="Aнализ воды: сделан">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#check2'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">Нет</div>
+                        <input type="radio" name="step4" value="Aнализ воды: не сделан">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+               </div>
+
+               <div class="quiz-control">
+                  <button class="btn quiz-control__prev">Назад</button>
+                  <div class="quiz-control__info">
+                     <div class="quiz-control__progressbar">
+                        <div class="quiz-control__progress"></div>
+                     </div>
+                     <div class="quiz-control__counter">
+                        <div class="quiz-control__counter_cur">1</div>
+                        <div class="quiz-control__counter__text">из</div>
+                        <div class="quiz-control__counter__all">6</div>
+                     </div>
+                  </div>
+                  <button class="btn quiz-control__next" disabled>Далее</button>
+               </div>
+            </div>
+
+            <div class="quiz-step">
+               <div class="quiz-step__title title3"><span class="fw-700">Когда планируете</span><br> установку
+                  системы?
+               </div>
+               <div class="quiz-step__subtitle">Оборудование всегда в наличии на складе. Установим или отправим в
+                  любое удобное время</div>
+
+               <div class="quiz-step__questions">
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#time1'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">В течение <br>
+                           недели</div>
+                        <input type="radio" name="step5" value="Установка: В течение недели">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#time2'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">В течение <br> месяца</div>
+                        <input type="radio" name="step5" value="Установка: В течение месяца">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+                  <label class="questions-item">
+                     <div class="questions-item__inner">
+                        <div class="questions-item__icon">
+                           <svg>
+                              <use xlink:href='img/color-sprite.svg#time3'></use>
+                           </svg>
+                        </div>
+                        <div class="questions-item__name">Не спешу, <br>
+                           изучаю</div>
+                        <input type="radio" name="step5" value="Установка: Не спешу, изучаю">
+                        <span class="radio-btn"></span>
+                     </div>
+                  </label>
+               </div>
+
+               <div class="quiz-control">
+                  <button class="btn quiz-control__prev">Назад</button>
+                  <div class="quiz-control__info">
+                     <div class="quiz-control__progressbar">
+                        <div class="quiz-control__progress"></div>
+                     </div>
+                     <div class="quiz-control__counter">
+                        <div class="quiz-control__counter_cur">1</div>
+                        <div class="quiz-control__counter__text">из</div>
+                        <div class="quiz-control__counter__all">6</div>
+                     </div>
+                  </div>
+                  <button class="btn quiz-control__next" disabled>Далее</button>
+               </div>
+            </div>
+
+            <div class="quiz-step quiz-step--form">
+               <div class="quiz-step__title title3"><span class="fw-700">Отлично. <span class="sm-br"><br></span>
+                     Последний
+                     шаг!</span><br>Напишите
+                  Ваш телефон <br> и мы всё рассчитаем!
+               </div>
+               <div class="quiz-step__subtitle">Также вы получите скидку <span class="blue fw-600">35% на монтаж
+                  </span> и подарок</div>
+
+               <div class="quiz-step__questions">
+                  <form action="#" class="main-form quiz-step__form" id="quiz-form">
+                     <input type="hidden" value="" name="step1">
+                     <input type="hidden" value="" name="step2">
+                     <input type="hidden" value="" name="step3">
+                     <input type="hidden" value="" name="step4">
+                     <input type="hidden" value="" name="step5">
+                     <div class="formgroup">
+                        <input type="tel" name="tell" placeholder="Ваш телефон">
+                        <svg>
+                           <use xlink:href='img/sprite.svg#tell'></use>
+                        </svg>
+                     </div>
+                  </form>
+               </div>
+
+               <div class="quiz-control">
+                  <button class="btn quiz-control__prev">Назад</button>
+                  <div class="quiz-control__info">
+                     <div class="quiz-control__progressbar">
+                        <div class="quiz-control__progress"></div>
+                     </div>
+                     <div class="quiz-control__counter">
+                        <div class="quiz-control__counter_cur">1</div>
+                        <div class="quiz-control__counter__text">из</div>
+                        <div class="quiz-control__counter__all">6</div>
+                     </div>
+                  </div>
+                  <button class="btn quiz-control__next" disabled>Далее</button>
+               </div>
+            </div>
+
+            <div class="quiz-step quiz-step--thanks">
+               <div class="quiz-step__sent">
+                  <div class="quiz-step__title title3"><span class="fw-700">Спасибо!
+                     </span><br>Мы уже в процессе рассчёта
+                  </div>
+                  <div class="quiz-step__subtitle">В течение <span class="fw-600">15 минут</span> мы перезвоним вам
+                  </div>
+                  <div class="quiz-step__close">
+                     <div class="btn close-popup">Закрыть</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div id="pamphlet-popup" class="popup zoom-anim-dialog mfp-hide">
+      <div class="popup__inner">
+         <picture class="popup__img">
+            <source media="(max-width: 576px)" srcset="img/catalog_mob.png">
+            <img src="img/catalog.png" alt="mounter">
+         </picture>
+         <div class="popup__discr">
+            <div class="popup__pretitle">Специально для вас подготовили полезный буклет:</div>
+            <div class="popup__title title4"> <span class="fw-700">«5
+                  фатальных ошибок при
+                  подборе
+                  системы очистки воды»</span></div>
+            <div class="popup__subtitle">Введите ваши данные, чтобы получить буклет</div>
+
+            <form action="#" class="main-form validate">
+               <div class="formgroup">
+                  <input type="text" name="email" placeholder="E-mail">
+                  <svg>
+                     <use xlink:href='img/sprite.svg#email'></use>
+                  </svg>
+               </div>
+               <div class="formgroup">
+                  <input type="tel" name="tell" placeholder="Ваш телефон">
+                  <svg>
+                     <use xlink:href='img/sprite.svg#tell'></use>
+                  </svg>
+               </div>
+               <div class="form-policy">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                  сайта
+               </div>
+               <div class="formgroup">
+                  <button class="btn">Получить буклет</button>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <div id="send-popup" class="popup zoom-anim-dialog mfp-hide">
+      <div class="popup__inner">
+         <div class="popup__title">Спасибо</div>
+         <div class="popup__send_text">Ваша заявка
+            успешно отправлена</div>
+         <div class="popup__call_text">Перезвоним в течение 15 минут</div>
+         <div class="popup__soc_text">Мы в соц.сетях:</div>
+         <div class="popup__soc_link">
+            <a href="#" class="soc-link">
+               <img src="img/tube.png" alt="tube">
+            </a>
+            <a href="#" class="soc-link">
+               <img src="img/insta.png" alt="insta">
+            </a>
+         </div>
+         <div class="popup__close">
+            <a href='javascript:void(0);' class="close-popup">Закрыть окно</a>
+         </div>
+      </div>
+   </div>
+
+   <div id="discount-popup" class="popup zoom-anim-dialog mfp-hide">
+      <div class="popup__inner">
+         <div class="popup__title"><span class="fw-700">Поздравляем!</span><span class="blue fw-600">Скидка 35% на
+               монтаж!</span></div>
+         <div class="popup__subtitle">Оставьте Ваши данные, <br> акция действует до 31 октября</div>
+
+         <form action="#" class="main-form validate">
+            <div class="formgroup">
+               <input type="text" name="name" placeholder="Ваше имя">
+               <svg>
+                  <use xlink:href='img/sprite.svg#person'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <input type="tel" name="tell" placeholder="Ваш телефон">
+               <svg>
+                  <use xlink:href='img/sprite.svg#tell'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <button class="btn">Получить скидку</button>
+            </div>
+            <div class="form-policy">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+               сайта
+            </div>
+         </form>
+      </div>
+   </div>
+
+   <div id="card-popup" class="popup zoom-anim-dialog mfp-hide">
+      <div class="popup__inner">
+         <div class="popup-card">
+            <div class="popup-card__title"></div>
+            <div class="popup-card__img">
+               <div class="popup-card__price">
+                  от
+                  <span></span>
+                  ₽
+               </div>
+               <img src="img/popup-card.jpg" alt="img">
+               <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="see-btn">
+                  <span class="see-btn__icon">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#play'></use>
+                     </svg>
+                  </span>
+                  <span class="see-btn__text">Смотреть <br> видеообзор</span>
+               </a>
+            </div>
+            <div class="popup-card__spec">
+               <div class="popup-card__spec_title">Удаляет:</div>
+               <ul class="popup-card__spec_list">
+                  <li>Железо: <span class="iron">до 15</span></li>
+                  <li>Жесткость: <span class="rigor">max</span></li>
+                  <li>Марганец: <span class="manganese">max</span></li>
+                  <li>ПО: <span class="po">max</span></li>
+                  <li>Хлор: <span class="chlorine">max</span></li>
+                  <li>Аммиак: <span class="ammonia ">max </span></li>
+                  <li>Аммоний: <span class="ammonium ">max</span></li>
+                  <li>Сереводород: <span class="serehydrogen">max</span></li>
+                  <li>Мутность: <span class="turbidness ">max</span></li>
+                  <li>Цветность: <span class="chromaticity">max</span></li>
+                  <li>Запах: <span class="smell">max</span></li>
+                  <li>Привкус: <span class="relish">max</span></li>
+               </ul>
+            </div>
+         </div>
+         <form action="#" class="main-form validate">
+            <div class="main-form__title"><span class="fw-600">Получить</span> <br>
+               полный прайс</div>
+            <div class="formgroup">
+               <input type="text" name="name" placeholder="Ваше имя">
+               <svg>
+                  <use xlink:href='img/sprite.svg#person'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <input type="tel" name="tell" placeholder="Ваш телефон">
+               <svg>
+                  <use xlink:href='img/sprite.svg#tell'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <button class="btn">Получить скидку</button>
+            </div>
+            <div class="form-policy">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+               сайта
+            </div>
+         </form>
+      </div>
+   </div>
+
+   <div id="protocol-popup" class="popup zoom-anim-dialog mfp-hide">
+      <div class="popup__inner">
+         <div class="metrics-wrap">
+            <div class="metrics">
+               <div class="metrics__title">Определяемый показатель</div>
+               <div class="metrics__list">
+                  <li>pH</li>
+                  <li>Жёсткость</li>
+                  <li>Запах</li>
+                  <li>Мутность</li>
+                  <li>Цветность</li>
+                  <li>Общая минерализация</li>
+                  <li>Аммиак <br> и ионы аммония</li>
+                  <li>Окисляемость перманганатная</li>
+                  <li>Марганец</li>
+                  <li>Сероводород и сульфиды</li>
+                  <li>Щёлочность</li>
+               </div>
+            </div>
+         </div>
+         <form action="#" class="main-form validate">
+            <div class="main-form__title"><span class="fw-600">Заполните форму</span> <br>и получите анализ</div>
+            <div class="formgroup">
+               <input type="text" name="name" placeholder="Ваше имя">
+               <svg>
+                  <use xlink:href='img/sprite.svg#person'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <input type="tel" name="tell" placeholder="Ваш телефон">
+               <svg>
+                  <use xlink:href='img/sprite.svg#tell'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <button class="btn">Получить скидку</button>
+            </div>
+            <div class="form-policy">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+               сайта
+            </div>
+         </form>
+      </div>
+   </div>
+
+   <div id="mounting-popup" class="popup zoom-anim-dialog mfp-hide">
+      <div class="popup__inner">
+         <div class="mounting-works">
+            <div class="mounting-works__item">
+               <div class="mounting-works__icon">
+                  <svg>
+                     <use xlink:href='img/color-sprite.svg#plan'></use>
+                  </svg>
+               </div>
+               <div class="mounting-works__title">Под ключ</div>
+               <div class="mounting-works__text">Установка системы очистки воды в течение 1 дня (5-7 часов) в радиусе
+                  300 км от МКАД.
+                  Оплата строго после установки и запуска системы</div>
+            </div>
+            <div class="mounting-works__item">
+               <div class="mounting-works__icon">
+                  <svg>
+                     <use xlink:href='img/color-sprite.svg#delivery-box'></use>
+                  </svg>
+               </div>
+               <div class="mounting-works__title">Самовывоз</div>
+               <div class="mounting-works__text">Самовывоз оборудования со склада
+                  в Химках с ПН по СБ (09:00-19:00)</div>
+            </div>
+            <div class="mounting-works__item">
+               <div class="mounting-works__icon">
+                  <svg>
+                     <use xlink:href='img/color-sprite.svg#free-delivery'></use>
+                  </svg>
+               </div>
+               <div class="mounting-works__title">Доставка</div>
+               <div class="mounting-works__text">Доставка оборудования по всей МО курьером и близлежащим областям в
+                  течение 1 дня. Доставка по всей РФ в течение 2-7 дней любой удобной ТК (ПЭК, СДЭК, ДЛ)</div>
+            </div>
+         </div>
+         <form action="#" class="main-form validate">
+            <div class="main-form__title"><span class="fw-600">Заполните форму</span> <br>
+               и узнайте больше</div>
+            <div class="formgroup">
+               <input type="text" name="name" placeholder="Ваше имя">
+               <svg>
+                  <use xlink:href='img/sprite.svg#person'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <input type="tel" name="tell" placeholder="Ваш телефон">
+               <svg>
+                  <use xlink:href='img/sprite.svg#tell'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <button class="btn">Получить скидку</button>
+            </div>
+            <div class="form-policy">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+               сайта
+            </div>
+         </form>
+      </div>
+   </div>
+
+   <div id="service-popup" class="popup zoom-anim-dialog mfp-hide">
+      <div class="popup__inner">
+         <div class="services">
+            <div class="services__title">Сервисное обслуживание</div>
+            <div class="services__list">
+               <div class="services__item">
+                  <span>Гарантийный и экстренный выезд</span>
+                  <span class="fw-600">в течение 1 дня</span>
+               </div>
+               <div class="services__item">
+                  <span>Сервисные работы и обслуживание системы </span>
+                  <span class="fw-600">каждые 1-1,5 года</span>
+               </div>
+               <div class="services__item">
+                  <span>Замена фильтрующего материала в системе</span>
+                  <span class="fw-600">каждые 4-5 лет</span>
+               </div>
+            </div>
+            <div class="services__title">Гарантия</div>
+            <div class="services__list">
+               <div class="services__item">
+                  <span>Гарантия на систему очистки и качество воды</span>
+                  <span class="fw-600">1 год</span>
+               </div>
+               <div class="services__item">
+                  <span>Гарантия на управляющие клапаны (Clack и Runxin)</span>
+                  <span class="fw-600">3 года</span>
+               </div>
+               <div class="services__item">
+                  <span>Реальный срок эксплуатации системы</span>
+                  <span class="fw-600">от 15 лет</span>
+               </div>
+            </div>
+         </div>
+         <form action="#" class="main-form validate">
+            <div class="main-form__title"><span class="fw-600">Бесплатная</span> <br>
+               консультация</div>
+            <div class="formgroup">
+               <input type="text" name="name" placeholder="Ваше имя">
+               <svg>
+                  <use xlink:href='img/sprite.svg#person'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <input type="tel" name="tell" placeholder="Ваш телефон">
+               <svg>
+                  <use xlink:href='img/sprite.svg#tell'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <button class="btn">Получить скидку</button>
+            </div>
+            <div class="form-policy">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+               сайта
+            </div>
+         </form>
+      </div>
+   </div>
+
+   <div id="call-popup" class="popup zoom-anim-dialog mfp-hide">
+      <div class="popup__inner">
+         <div class="bg"></div>
+         <form action="#" class="main-form validate">
+
+            <div class="main-form__title"><span class="fw-700">Заполните форму</span> <br>
+               и мы вам перезвоним</div>
+            <div class="formgroup">
+               <input type="text" name="name" placeholder="Ваше имя">
+               <svg>
+                  <use xlink:href='img/sprite.svg#person'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <input type="tel" name="tell" placeholder="Ваш телефон">
+               <svg>
+                  <use xlink:href='img/sprite.svg#tell'></use>
+               </svg>
+            </div>
+            <div class="formgroup">
+               <button class="btn">Получить скидку</button>
+            </div>
+            <div class="form-policy">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+               сайта
+            </div>
+         </form>
+      </div>
+   </div>
+
+   <div id="map-popup" class="popup zoom-anim-dialog mfp-hide">
+      <div class="popup__inner">
+         <script type="text/javascript" charset="utf-8" async=""
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A25d342bb1afa1adbf99798810c28c01686e003f6a283e9c91f316b5a0a2e9d92&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+      </div>
+   </div>
+
+
+
+   <script src="scripts/app.min.js"></script>
+   <script src="scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+body {
+   margin: 0;
+}
+
+.container {
+   width: 100%;
+}
+
+@font-face {
+   font-family: 'Balsamiq Sans';
+   src: url('../fonts/BalsamiqSans-Italic.woff2') format('woff2');
+   font-weight: normal;
+   font-style: italic;
+   font-display: swap;
+}
+
+.row {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 0px;
+
+   @media (max-width: 992px) {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+   }
+}
+
+.link-item {
+   position: relative;
+   padding-top: 50%;
+   transition: 0.3s;
+   overflow: hidden;
+   box-sizing: border-box;
+
+   &:before {
+      content: '';
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgba(0,20,24,.8);
+      z-index: 1;
+      transition: 0.4s;
+      opacity: 0;
+
+      background-image: url('../img/eye-svgrepo-com.svg');
+      background-repeat: no-repeat;
+      background-size: 20px;
+      background-position: center;
+
+      
+      @media (max-width: 600px) {
+         display: none;
+      }
+   }
+
+   &:after {
+      content: '+ Смотреть проeкт';
+      display: block;
+      position: absolute;
+      bottom: 30px;
+      left: 100%;
+      width: ~"calc(100% - 60px)";
+      color: #fff;
+      font-size: 20px;
+      z-index: 20;
+
+      transition: 0.6s;
+      font-family: 'Balsamiq Sans', cursive;
+      opacity: 0;
+
+      @media (max-width: 1300px) {
+         font-size: 16px;
+      }
+
+      @media (max-width: 800px) {
+         font-size: 14px;
+         width: ~"calc(100% - 30px)";
+      }
+
+      @media (max-width: 600px) {
+         display: none;
+      }
+   }
+
+   &:hover {
+      &:before {
+         opacity: 1;
+         background-size: 70px;
+
+         @media (max-width: 1300px) {
+            background-size: 50px;
+         }
+      }
+
+      &:after {
+         left: 60px;
+         opacity: 1;
+
+         @media (max-width: 800px) {
+            font-size: 14px;
+            left: 30px;
+         }
+      }
+
+      img {
+         transform: scale(1.1);
+      }
+   }
+
+   img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: 0.6s;
+   }
+}
+

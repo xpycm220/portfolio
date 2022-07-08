@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Movie Reel Film</title>
+  <desc>A line styled icon from Orion Icon Library.</desc>
+  <circle data-name="layer1"
+  cx="34" cy="32" r="28" fill="none" stroke="#fff" stroke-miterlimit="10"
+  stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></circle>
+  <circle data-name="layer2" cx="18" cy="32" r="4" fill="none"
+  stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+  stroke-linecap="round"></circle>
+  <circle data-name="layer2" cx="26" cy="18" r="4" fill="none"
+  stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+  stroke-linecap="round"></circle>
+  <circle data-name="layer2" cx="42" cy="18" r="4" fill="none"
+  stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+  stroke-linecap="round"></circle>
+  <circle data-name="layer2" cx="26" cy="46" r="4" fill="none"
+  stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+  stroke-linecap="round"></circle>
+  <circle data-name="layer2" cx="42" cy="46" r="4" fill="none"
+  stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+  stroke-linecap="round"></circle>
+  <circle data-name="layer2" cx="50" cy="32" r="4" fill="none"
+  stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+  stroke-linecap="round"></circle>
+  <path data-name="layer1" d="M20 56.2c-4 4.2-13.6 5-18 1.7" fill="none"
+  stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+  stroke-linecap="round"></path>
+  <circle data-name="layer1" cx="30" cy="28" r="1" fill="none" stroke="#fff"
+  stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></circle>
+  <circle data-name="layer1" cx="38" cy="28" r="1" fill="none"
+  stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+  stroke-linecap="round"></circle>
+  <circle data-name="layer1" cx="30" cy="36" r="1" fill="none"
+  stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+  stroke-linecap="round"></circle>
+  <circle data-name="layer1" cx="38" cy="36" r="1" fill="none"
+  stroke="#fff" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"
+  stroke-linecap="round"></circle>
+</svg>

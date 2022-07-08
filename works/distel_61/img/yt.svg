@@ -1,0 +1,28 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="40" rx="20" fill="#FCFCFC"/>
+<rect width="40" height="40" rx="20" fill="url(#paint0_linear_902:3538)"/>
+<rect width="40" height="40" rx="20" fill="url(#paint1_linear_902:3538)"/>
+<g filter="url(#filter0_i_902:3538)">
+<path d="M29.5879 15.1907C29.3575 14.334 28.6819 13.6588 27.8252 13.4281C26.2602 13 19.9998 13 19.9998 13C19.9998 13 13.7396 13 12.1746 13.4119C11.3344 13.6423 10.6423 14.3342 10.4119 15.1907C10 16.7553 10 20 10 20C10 20 10 23.2611 10.4119 24.8093C10.6426 25.6658 11.3179 26.3411 12.1747 26.5718C13.7561 27 20 27 20 27C20 27 26.2602 27 27.8252 26.5881C28.682 26.3576 29.3575 25.6823 29.5882 24.8258C29.9999 23.2611 29.9999 20.0165 29.9999 20.0165C29.9999 20.0165 30.0164 16.7553 29.5879 15.1907ZM18.0066 22.9976V17.0024L23.2124 20L18.0066 22.9976Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_i_902:3538" x="10" y="13" width="20" height="15" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.227451 0 0 0 0 0.227451 0 0 0 0 0.227451 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_902:3538"/>
+</filter>
+<linearGradient id="paint0_linear_902:3538" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+<stop stop-color="#55B4F9"/>
+<stop offset="1" stop-color="#2795E6"/>
+</linearGradient>
+<linearGradient id="paint1_linear_902:3538" x1="19.9184" y1="38.1529" x2="19.9184" y2="3.47581e-07" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E53935"/>
+<stop offset="1" stop-color="#EF6C6A"/>
+</linearGradient>
+</defs>
+</svg>

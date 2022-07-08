@@ -1,0 +1,1875 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+   <!-- <link rel="shortcut icon" href="img/favicon.png" type="image/png"> -->
+
+   <title>Keks</title>
+
+
+   <link rel="stylesheet" href="css/app.min.css">
+   <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+   <header class="header">
+      <div class='container'>
+         <div class="header__inner">
+            <a href="#section-main" class="logo scroll-link">
+               <div class="logo__logo">КЕКС</div>
+               <div class="logo__text">Коммуникационное <br> агентство</div>
+            </a>
+            <ul class="header-nav scroll-spy">
+               <li><a href="#section-main">Главная</a></li>
+               <li><a href="#section-service">Услуги</a></li>
+               <li><a href="#section-portfolio">Кейсы</a></li>
+               <li><a href="#section-client">Клиенты</a></li>
+               <li><a href="#section-follow">Контакты</a></li>
+            </ul>
+
+            <div class="contact-block">
+               <a href='tel:+74951287161' class='contact-block__tell'>8 (495) 128 71-61</a>
+               <a href="#callback" data-fancybox class="phone-btn desctop">
+                  <svg>
+                     <use xlink:href='img/sprite.svg#call'></use>
+                  </svg>
+                  <span></span>
+               </a>
+
+               <div data-target="#call-menu" class="phone-btn mobile">
+                  <svg>
+                     <use xlink:href='img/sprite.svg#call'></use>
+                  </svg>
+                  <span></span>
+               </div>
+            </div>
+
+            <div class="burger-btn" data-target="#sidebar-menu">
+               <svg>
+                  <use xlink:href='img/sprite.svg#burger'></use>
+               </svg>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <section id="section-main">
+      <div class="main-slider">
+         <div class="swiper-wrapper">
+            <div class="main-slide swiper-slide">
+               <div class="main-slide__img">
+                  <picture>
+                     <source media="(max-width: 576px)" data-srcset="img/main-slide1_m.jpg" class="swiper-lazy">
+                     <img data-src="img/main-slide1.jpg" alt="img" class="swiper-lazy">
+                  </picture>
+                  <div class="swiper-lazy-preloader"></div>
+               </div>
+
+               <div class='container'>
+                  <div class="main-slide__inner">
+                     <div class="main-slide__title wow animate__animated animate__fadeIn" data-wow-delay="0.3s">Делаем
+                        мероприятия брендов красивыми
+                        <br>
+                        <span class="brown lower-case">и</span>
+                        успешными
+                     </div>
+                     <div class="main-slide__discr wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
+                        <div class="main-slide__subtitle">Работаем с РИВ ГОШ, МКБ банк, ГК Росатом, Mercedes<wbr>-Benz,
+                           World Skills и другими.</div>
+                        <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn">
+                           <svg>
+                              <use xlink:href='img/sprite.svg#play'></use>
+                           </svg>
+                        </a>
+                     </div>
+                     <a href="#request" data-fancybox class="main-btn desctop wow animate__animated animate__fadeIn"
+                        data-wow-delay="0.7s">
+                        отправить запрос
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </a>
+
+                     <div data-target="#request-sidebar" class="main-btn mobile">
+                        отправить запрос
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="main-slider-control">
+                  <div class='container'>
+                     <div class="main-slider-control__inner">
+                        <div class="slider-nav">
+                           <div class="slider-button-prev main-prev">
+                              <svg>
+                                 <use xlink:href='img/sprite.svg#slider-left'></use>
+                              </svg>
+                           </div>
+                           <div class="slider-button-next main-next">
+                              <svg>
+                                 <use xlink:href='img/sprite.svg#slider-right'></use>
+                              </svg>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination main-pagination"></div>
+                        <div class="case">
+                           <a href="#section-portfolio" class="case-btn scroll-link">Смотреть <br> кейс</a>
+                           <div class="case-text">
+                              Застройка и подготовка сопутствующих материалов
+                              <span class="brown">Mercedes-Benz на ПМЭФ 2021.</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="main-slide swiper-slide">
+               <div class="main-slide__img">
+                  <picture class="swiper-lazy">
+                     <source media="(max-width: 576px)" data-srcset="img/main-slide2_m.jpg" class="swiper-lazy">
+                     <img data-src="img/main-slide2.jpg" alt="img" class="swiper-lazy">
+                  </picture>
+                  <div class="swiper-lazy-preloader"></div>
+               </div>
+
+               <div class='container'>
+                  <div class="main-slide__inner">
+                     <div class="main-slide__title">поможем вашему стенду выделиться, придумаем <span
+                           class="brown">концепт</span> и реализуем</div>
+                     <div class="main-slide__discr">
+                        <div class="main-slide__subtitle">Работаем с РИВ ГОШ, МКБ банк, ГК Росатом, Mercedes-Benz,
+                           World
+                           Skills и другими.</div>
+                        <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn">
+                           <svg>
+                              <use xlink:href='img/sprite.svg#play'></use>
+                           </svg>
+                        </a>
+                     </div>
+                     <a href="#request" data-fancybox class="main-btn desctop">
+                        отправить запрос
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </a>
+
+                     <div data-target="#request-sidebar" class="main-btn mobile">
+                        отправить запрос
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="main-slider-control">
+                  <div class='container'>
+                     <div class="main-slider-control__inner">
+                        <div class="slider-nav">
+                           <div class="slider-button-prev main-prev">
+                              <svg>
+                                 <use xlink:href='img/sprite.svg#slider-left'></use>
+                              </svg>
+                           </div>
+                           <div class="slider-button-next main-next">
+                              <svg>
+                                 <use xlink:href='img/sprite.svg#slider-right'></use>
+                              </svg>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination main-pagination"></div>
+                        <div class="case">
+                           <a href="#section-portfolio" class="case-btn scroll-link">Смотреть <br> кейс</a>
+                           <div class="case-text">
+                              Застройка и подготовка сопутствующих материалов
+                              <span class="brown">Академия Росатом WorldSkills Kazan 2019.</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="main-slide swiper-slide">
+               <div class="main-slide__img">
+                  <picture class="swiper-lazy">
+                     <source media="(max-width: 576px)" data-srcset="img/main-slide3_m.jpg" class="swiper-lazy">
+                     <img data-src="img/main-slide3.jpg" alt="img" class="swiper-lazy">
+                  </picture>
+                  <div class="swiper-lazy-preloader"></div>
+               </div>
+
+               <div class='container'>
+                  <div class="main-slide__inner">
+                     <div class="main-slide__title">придумаем как сделать большие мероприятия еще
+                        <span class="brown">интересней</span>
+                     </div>
+                     <div class="main-slide__discr">
+                        <div class="main-slide__subtitle">Работаем с РИВ ГОШ, МКБ банк, ГК Росатом, Mercedes-Benz,
+                           World
+                           Skills и другими.</div>
+                        <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn">
+                           <svg>
+                              <use xlink:href='img/sprite.svg#play'></use>
+                           </svg>
+                        </a>
+                     </div>
+                     <a href="#request" data-fancybox class="main-btn desctop">
+                        отправить запрос
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </a>
+
+                     <div data-target="#request-sidebar" class="main-btn mobile">
+                        отправить запрос
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="main-slider-control">
+                  <div class='container'>
+                     <div class="main-slider-control__inner">
+                        <div class="slider-nav">
+                           <div class="slider-button-prev main-prev">
+                              <svg>
+                                 <use xlink:href='img/sprite.svg#slider-left'></use>
+                              </svg>
+                           </div>
+                           <div class="slider-button-next main-next">
+                              <svg>
+                                 <use xlink:href='img/sprite.svg#slider-right'></use>
+                              </svg>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination main-pagination"></div>
+                        <div class="case">
+                           <a href="#section-portfolio" class="case-btn scroll-link">Смотреть <br> кейс</a>
+                           <div class="case-text">
+                              Застройка и подготовка сопутствующих материалов
+                              <span class="brown">Mercedes-Benz на GQ Человек года 2019</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="section-service">
+      <div class='container'>
+         <div class="services">
+            <div class="services-head">
+               <div class="services-head__title title2 wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
+                  услуги<sup class="sup brown">5</sup>
+               </div>
+            </div>
+
+            <div class="services-item wow animate__animated animate__fadeIn" data-wow-delay="0.6s">
+               <div class="services-item__name">Дизайн</div>
+               <div class="services-item__discr">
+                  <div class="services-item__text">
+                     Презентации, анимированные ролики, выставочные стенды, лендинги, 2D,
+                     3D, графический дизайн
+                  </div>
+
+                  <a href="#request_add" data-fancybox class="services-item__btn desctop">
+                     <span>Отправить запрос</span>
+                     <svg>
+                        <use xlink:href='img/sprite.svg#arr-top'></use>
+                     </svg>
+                  </a>
+
+                  <div data-target="#request_add-sidebar" class="services-item__btn mobile">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#arr-top'></use>
+                     </svg>
+                  </div>
+               </div>
+            </div>
+
+            <div class="services-item wow animate__animated animate__fadeIn" data-wow-delay="0.7s">
+               <div class="services-item__name">Застройка</div>
+               <div class="services-item__discr">
+                  <div class="services-item__text">
+                     Выставочные стенды, подиумы, брендинг мероприятий, форумов
+                  </div>
+
+                  <a href="#request_add" data-fancybox class="services-item__btn desctop">
+                     <span>Отправить запрос</span>
+                     <svg>
+                        <use xlink:href='img/sprite.svg#arr-top'></use>
+                     </svg>
+                  </a>
+
+                  <div data-target="#request_add-sidebar" class="services-item__btn mobile">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#arr-top'></use>
+                     </svg>
+                  </div>
+               </div>
+            </div>
+
+            <div class="services-item wow animate__animated animate__fadeIn" data-wow-delay="0.8s">
+               <div class="services-item__name">Продакшн</div>
+               <div class="services-item__discr">
+                  <div class="services-item__text">
+                     Разработка сценария, кастинг, съемки, монтаж, постпродакшн
+                  </div>
+
+                  <a href="#request_add" data-fancybox class="services-item__btn desctop">
+                     <span>Отправить запрос</span>
+                     <svg>
+                        <use xlink:href='img/sprite.svg#arr-top'></use>
+                     </svg>
+                  </a>
+
+                  <div data-target="#request_add-sidebar" class="services-item__btn mobile">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#arr-top'></use>
+                     </svg>
+                  </div>
+               </div>
+            </div>
+
+            <div class="services-item wow animate__animated animate__fadeIn" data-wow-delay="0.9s">
+               <div class="services-item__name">Мероприятия</div>
+               <div class="services-item__discr">
+                  <div class="services-item__text">
+                     Организация любых видов мероприятий. От идеи
+                     до тысяч гостей.
+                  </div>
+
+                  <a href="#request_add" data-fancybox class="services-item__btn desctop">
+                     <span>Отправить запрос</span>
+                     <svg>
+                        <use xlink:href='img/sprite.svg#arr-top'></use>
+                     </svg>
+                  </a>
+
+                  <div data-target="#request_add-sidebar" class="services-item__btn mobile">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#arr-top'></use>
+                     </svg>
+                  </div>
+               </div>
+            </div>
+
+            <div class="services-item wow animate__animated animate__fadeIn" data-wow-delay="1.0s">
+               <div class="services-item__name">Работа с блогерами</div>
+               <div class="services-item__discr">
+                  <div class="services-item__text">
+                     В 2020 году сделали 1800+ интеграций с блогерами
+                  </div>
+
+                  <a href="#request" data-fancybox class="services-item__btn desctop">
+                     <span>Отправить запрос</span>
+                     <svg>
+                        <use xlink:href='img/sprite.svg#arr-top'></use>
+                     </svg>
+                  </a>
+
+                  <div data-target="#request_add-sidebar" class="services-item__btn mobile">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#arr-top'></use>
+                     </svg>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="section-portfolio">
+      <div class='container'>
+         <div class="portfolio">
+            <div class="portfolio__head">
+               <div class="title2 portfolio__title wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
+                  кейсы<sup class="sup brown">10</sup></div>
+               <div class="portfolio-nav">
+                  <div class="slider-button-prev portfolio-prev">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#slider-left'></use>
+                     </svg>
+                  </div>
+                  <div class="slider-button-next portfolio-next">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#slider-right'></use>
+                     </svg>
+                  </div>
+               </div>
+            </div>
+
+            <div class="portfolio-slider">
+               <div class="swiper-wrapper">
+                  <div class="portfolio-item swiper-slide">
+                     <div class="portfolio-item__img">
+                        <div class="portfolio-inner">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio1_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio1.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio2_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio2.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio3_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio3.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio4_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio4.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio5_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio5.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio6_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio6.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                           </div>
+                           <div class="slide-control">
+                              <div class="swiper-pagination"></div>
+                              <div class="slide-control-nav">
+                                 <div class="slider-button-prev inner-prev">
+                                    <svg>
+                                       <use xlink:href='img/sprite.svg#slider-left'></use>
+                                    </svg>
+                                 </div>
+                                 <div class="slider-button-next inner-next">
+                                    <svg>
+                                       <use xlink:href='img/sprite.svg#slider-right'></use>
+                                    </svg>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="portfolio-item__discr portfolio-discr">
+                        <div class="portfolio-discr__title">Открой Россию – открой МКБ</div>
+                        <div class="portfolio-discr__tags">
+                           <div class="tag">Продакшн</div>
+                           <div class="tag">МКБ-Банк</div>
+                        </div>
+                        <div class="portfolio-discr__text">Разработка концепции, подбор блогеров, организация турне по
+                           городам России, монтаж ролика, публикации в социальных сетях блогеров (TikTok, Instagram)
+                        </div>
+                        <div class="portfolio-advance">
+                           <div class="portfolio-advance__item">
+                              <div class="portfolio-advance__num">4</div>
+                              <div class="portfolio-advance__text">Города</div>
+                           </div>
+                           <div class="portfolio-advance__item">
+                              <div class="portfolio-advance__num">2 <span class="brown">млн</span></div>
+                              <div class="portfolio-advance__text">Просмотров</div>
+                           </div>
+                        </div>
+                        <div class="portfolio-discr__text">Ролик использовался в таргетированной кампании банка</div>
+                     </div>
+                  </div>
+
+                  <div class="portfolio-item swiper-slide">
+                     <div class="portfolio-item__img">
+                        <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn"
+                           data-fancybox>
+                           <svg>
+                              <use xlink:href='img/sprite.svg#play'></use>
+                           </svg>
+                        </a>
+                        <div class="portfolio-inner">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio1_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio1.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio2_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio2.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio3_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio3.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio4_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio4.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                           </div>
+                           <div class="slide-control">
+                              <div class="swiper-pagination"></div>
+                              <div class="slide-control-nav">
+                                 <div class="slider-button-prev inner-prev">
+                                    <svg>
+                                       <use xlink:href='img/sprite.svg#slider-left'></use>
+                                    </svg>
+                                 </div>
+                                 <div class="slider-button-next inner-next">
+                                    <svg>
+                                       <use xlink:href='img/sprite.svg#slider-right'></use>
+                                    </svg>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="portfolio-item__discr portfolio-discr">
+                        <div class="portfolio-discr__title">Федеральная розничная сеть</div>
+                        <div class="portfolio-discr__tags">
+                           <div class="tag">Блогеры</div>
+                           <div class="tag">Интеграции</div>
+                           <div class="tag">Торговая сеть</div>
+                        </div>
+                        <div class="portfolio-discr__text">Для анонсирования акции мы сформировали идеальную команду из
+                           7 блогеров с качественной аудиторией. Каждый из блогеров рассказал подписчикам личную и очень
+                           трогательную историю, связанную со школой и их отношением к ней.</div>
+                        <div class="portfolio-advance">
+                           <div class="portfolio-advance__item">
+                              <div class="portfolio-advance__num">1.3 <span class="brown">млн</span></div>
+                              <div class="portfolio-advance__text">Показов</div>
+                           </div>
+                           <div class="portfolio-advance__item">
+                              <div class="portfolio-advance__num">1 <span class="brown">млн</span></div>
+                              <div class="portfolio-advance__text">Охват ЦА</div>
+                           </div>
+                           <div class="portfolio-advance__item">
+                              <div class="portfolio-advance__num">100+ <span class="brown">тыс</span></div>
+                              <div class="portfolio-advance__text">Взаимодействий</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="portfolio-item swiper-slide">
+                     <div class="portfolio-item__img">
+                        <div class="portfolio-inner">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio1_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio1.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio2_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio2.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio3_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio3.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio4_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio4.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                           </div>
+                           <div class="slide-control">
+                              <div class="swiper-pagination"></div>
+                              <div class="slide-control-nav">
+                                 <div class="slider-button-prev inner-prev">
+                                    <svg>
+                                       <use xlink:href='img/sprite.svg#slider-left'></use>
+                                    </svg>
+                                 </div>
+                                 <div class="slider-button-next inner-next">
+                                    <svg>
+                                       <use xlink:href='img/sprite.svg#slider-right'></use>
+                                    </svg>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="portfolio-item__discr portfolio-discr">
+                        <div class="portfolio-discr__title">Международный канал Olympic Channel</div>
+                        <div class="portfolio-discr__tags">
+                           <div class="tag">Olympic games</div>
+                           <div class="tag">TV</div>
+                           <div class="tag">Блогеры</div>
+                        </div>
+                        <div class="portfolio-discr__text">Сериал был приурочен, к Чемпионату мира по спортивной
+                           гимнастике и направлен на популяризацию спорта среди молодежи и Олимпийского движения в
+                           целом. Цель переходы целевой аудитории на сайт канала и увеличение просмотров новых эпизодов.
+                        </div>
+                        <div class="portfolio-advance">
+                           <div class="portfolio-advance__item">
+                              <div class="portfolio-advance__num">40</div>
+                              <div class="portfolio-advance__text">Блогеров Instagram от 7 лет</div>
+                           </div>
+                           <div class="portfolio-advance__item">
+                              <div class="portfolio-advance__num">1.5 <span class="brown">млн</span></div>
+                              <div class="portfolio-advance__text">Охват ЦА</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="portfolio-item swiper-slide">
+                     <div class="portfolio-item__img">
+                        <picture>
+                           <source media="(max-width: 576px)" srcset="img/portfolio4_m.jpg" class="swiper-lazy">
+                           <img src="img/portfolio4.jpg" alt="img" class="swiper-lazy">
+                        </picture>
+                     </div>
+                     <div class="portfolio-item__discr portfolio-discr">
+                        <div class="portfolio-discr__title">Открытая лекция американского художника</div>
+                        <div class="portfolio-discr__tags">
+                           <div class="tag">Искусство</div>
+                           <div class="tag">МГИМО</div>
+                           <div class="tag">Дэвид Датуна</div>
+                           <div class="tag">Соц. сети</div>
+                        </div>
+                        <div class="portfolio-discr__text">Созданы и наполнены официальные
+                           страницы в Facebook и Instagram,
+                           опубликован анонс мероприятия, осуществлена прямая трансляция с
+                           мероприятия в Facebook. Собрали полный зал на лекцию художника.
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="portfolio-item swiper-slide">
+                     <div class="portfolio-item__img">
+                        <div class="portfolio-inner">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio1_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio1.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio2_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio2.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio3_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio3.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio4_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio4.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                           </div>
+                           <div class="slide-control">
+                              <div class="swiper-pagination"></div>
+                              <div class="slide-control-nav">
+                                 <div class="slider-button-prev inner-prev">
+                                    <svg>
+                                       <use xlink:href='img/sprite.svg#slider-left'></use>
+                                    </svg>
+                                 </div>
+                                 <div class="slider-button-next inner-next">
+                                    <svg>
+                                       <use xlink:href='img/sprite.svg#slider-right'></use>
+                                    </svg>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="portfolio-item__discr portfolio-discr">
+                        <div class="portfolio-discr__title">XXIX Всемирная Зимняя Универсиада 2019 года</div>
+                        <div class="portfolio-discr__tags">
+                           <div class="tag">Застройка</div>
+                           <div class="tag">Олимпиада</div>
+                           <div class="tag">ЗD дизайн</div>
+                        </div>
+                        <div class="portfolio-discr__text">Пригласили блогеров из разных регионов России в блог-тур в
+                           Красноярск. В мероприятии приняли участие блогеры из Москвы, Санкт-Петербурга, Нижнего
+                           Новгорода, Екатеринбурга, Самары, Иваново и других городов.
+                        </div>
+                        <div class="portfolio-advance">
+                           <div class="portfolio-advance__item">
+                              <div class="portfolio-advance__num">24</div>
+                              <div class="portfolio-advance__text">Города</div>
+                           </div>
+                           <div class="portfolio-advance__item">
+                              <div class="portfolio-advance__num">41 <span class="brown">млн</span></div>
+                              <div class="portfolio-advance__text">Просмотров</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="portfolio-item swiper-slide">
+                     <div class="portfolio-item__img">
+                        <div class="portfolio-inner">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio1_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio1.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio2_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio2.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio3_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio3.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <picture>
+                                    <source media="(max-width: 576px)" data-srcset="img/portfolio4_m.jpg"
+                                       class="swiper-lazy">
+                                    <img data-src="img/portfolio4.jpg" alt="img" class="swiper-lazy">
+                                 </picture>
+                                 <div class="swiper-lazy-preloader"></div>
+                              </div>
+                           </div>
+                           <div class="slide-control">
+                              <div class="swiper-pagination"></div>
+                              <div class="slide-control-nav">
+                                 <div class="slider-button-prev inner-prev">
+                                    <svg>
+                                       <use xlink:href='img/sprite.svg#slider-left'></use>
+                                    </svg>
+                                 </div>
+                                 <div class="slider-button-next inner-next">
+                                    <svg>
+                                       <use xlink:href='img/sprite.svg#slider-right'></use>
+                                    </svg>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="portfolio-item__discr portfolio-discr">
+                        <div class="portfolio-discr__title">Мерседес-Бенц на ПМЭФ 2021</div>
+                        <div class="portfolio-discr__tags">
+                           <div class="tag">Продакшн</div>
+                           <div class="tag">Презентация</div>
+                           <div class="tag">Застройка</div>
+                           <div class="tag">Анимация</div>
+                        </div>
+                        <div class="portfolio-discr__text">Разработка концепции, подбор блогеров, организация турне по
+                           городам России, монтаж ролика, публикации в социальных сетях блогеров (TikTok, Instagram)
+                        </div>
+                        <div class="portfolio-advance">
+                           <div class="portfolio-advance__item">
+                              <div class="portfolio-advance__num">1</div>
+                              <div class="portfolio-advance__text">Стенд</div>
+                           </div>
+                           <div class="portfolio-advance__item">
+                              <div class="portfolio-advance__num">2 <span class="brown">млн</span></div>
+                              <div class="portfolio-advance__text">Просмотров</div>
+                           </div>
+                        </div>
+                        <div class="portfolio-discr__text">Ролик использовался в таргетированной кампании банка</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-pagination portfolio-pagination"></div>
+         </div>
+   </section>
+
+   <section id="section-client">
+      <div class='container'>
+         <div class="out-clients">
+            <div class="out-clients__head wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
+               <div class="out-clients__text">Мы знаем, что такое брендбук, стиль, первые лица, «надо вчера»</div>
+               <div class="out-clients__r">
+                  <div class="out-clients__title title2">
+                     клиенты <sup class="sup brown">24+</sup>
+                  </div>
+
+                  <div class="clients-nav">
+                     <div class="slider-button-prev clients-prev">
+                        <svg>
+                           <use xlink:href='img/sprite.svg#slider-left'></use>
+                        </svg>
+                     </div>
+                     <div class="slider-button-next clients-next">
+                        <svg>
+                           <use xlink:href='img/sprite.svg#slider-right'></use>
+                        </svg>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="clients" data-mobile="false">
+            <div class="swiper-wrapper">
+               <div class="client client1 w240  swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+               <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client1.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client2 w240  swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+               <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client2.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client3 w240 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+               <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client3.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client4 w150 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+               <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client4.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client5 w190 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+               <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client5.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client6 w150 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+               <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client6.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client7 w240 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+               <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client7.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client8 w170 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+               <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client8.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client9 w240 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client9.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client10 w170 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client10.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client11 w150 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client11.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client12 w170 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client12.jpg" alt="client">
+                  </div>
+               </div>
+               <!-- <div class="client client13 w150 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client13.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client14 w240 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client14.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client15 w190 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client15.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client16 w240 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client16.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client17 w150 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client17.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client18 w190 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client18.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client19 w150 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client19.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client20 w240 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client20.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client21 w190 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client21.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client22 w190 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client22.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client23 w190 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client23.jpg" alt="client">
+                  </div>
+               </div>
+               <div class="client client24 w170 swiper-slide"
+                  title="<div class='tooltip-title'>Компания Центр2м</div>
+            <div class='tooltip-text'>Провели выставку, застроили стенд, отрисовали дизайн материалы, подготовили видеопрезентацию</div>">
+                  <div class="client__inner">
+                     <img src="img/client24.jpg" alt="client">
+                  </div>
+               </div> -->
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="section-review">
+      <div class='container'>
+         <div class="reviews">
+            <div class="reviews-head">
+               <div class="title2 review__title">Отзывы<sup class="sup brown">10</sup></div>   
+               <div class="reviews-nav">
+                  <div class="slider-button-prev reviews-prev">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#slider-left'></use>
+                     </svg>
+                  </div>
+                  <div class="slider-button-next reviews-next">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#slider-right'></use>
+                     </svg>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <div class="reviews-slider">
+            <div class="swiper-wrapper">
+               <a href="img/review1-xl.jpg" class="swiper-slide review-item" data-fancybox="reviews">
+                  <img src="img/review1.jpg" alt="img">
+               </a>
+               <a href="img/review1-xl.jpg" class="swiper-slide review-item" data-fancybox="reviews">
+                  <img src="img/review1.jpg" alt="img">
+               </a>
+               <a href="img/review1-xl.jpg" class="swiper-slide review-item" data-fancybox="reviews">
+                  <img src="img/review1.jpg" alt="img">
+               </a>
+               <a href="img/review1-xl.jpg" class="swiper-slide review-item" data-fancybox="reviews">
+                  <img src="img/review1.jpg" alt="img">
+               </a>
+               <a href="img/review1-xl.jpg" class="swiper-slide review-item" data-fancybox="reviews">
+                  <img src="img/review1.jpg" alt="img">
+               </a>
+               <a href="img/review1-xl.jpg" class="swiper-slide review-item" data-fancybox="reviews">
+                  <img src="img/review1.jpg" alt="img">
+               </a>
+            </div>
+            <div class="swiper-pagination reviews-pagination"></div>
+         </div>
+      </div>
+   </section>
+
+   <section id="section-follow">
+      <div class='container'>
+         <div class="follow">
+            <div class="follow__head">
+               <div class="follow__discr">
+                  <div class="follow__title wow animate__animated animate__fadeIn" data-wow-delay="0.3s">Узнайте <span
+                        class="brown">больше</span> <br> о нас, проектах <br> и
+                     возможностях
+                  </div>
+                  <div class="follow__btn wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
+                     <a href="#present" data-fancybox class="main-btn desctop">
+                        получить презентацию
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </a>
+
+                     <div data-target="#present-sidebar" class="main-btn mobile">
+                        получить презентацию
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="follow__img wow animate__animated animate__fadeIn" data-wow-delay="0.7s">
+               <picture>
+                  <source media="(max-width: 576px)" srcset="img/follow.png">
+                  <img src="img/follow.png" alt="img">
+               </picture>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer class="footer">
+      <div class="footer-top">
+         <ul class="footer-nav scroll-spy">
+            <li><a href="#section-main"">Главная</a></li>
+            <li><a href=" #section-service">Услуги</a></li>
+            <li><a href="#section-portfolio">Кейсы</a></li>
+            <li><a href="#section-client">Клиенты</a></li>
+            <li><a href="#section-follow">Контакты</a></li>
+         </ul>
+         <div class="contact-block">
+            <a href='tel:+74951287161' class='contact-block__tell'>8 (495) 128 71-61</a>
+            <a href="#callback" data-fancybox class="phone-btn desctop">
+               <svg>
+                  <use xlink:href='img/sprite.svg#call'></use>
+               </svg>
+               <span></span>
+            </a>
+
+            <div class="phone-btn mobile" data-target="#callback-sidebar">
+               <svg>
+                  <use xlink:href='img/sprite.svg#call'></use>
+               </svg>
+               <span></span>
+            </div>
+         </div>
+      </div>
+      <div class="footer-mid">
+         <a href="#section-main" class="logo scroll-link">
+            <div class="logo__logo">КЕКС</div>
+            <div class="logo__text">Коммуникационное <br> агентство</div>
+         </a>
+         <div class="other-projects">
+            <div class="other-projects__discr">
+               <div class="other-projects__title">Другие проекты:</div>
+               <div class="other-projects__name">КЕКС блогеры</div>
+            </div>
+            <div class="other-projects__btn">
+               <a href="img/portfolio1.jpg" class="download-present" download>
+                  <span class="download-present__text">Скачать <br> презентацию</span>
+                  <svg>
+                     <use xlink:href='img/sprite.svg#download'></use>
+                  </svg>
+               </a>
+            </div>
+         </div>
+         <div class="footer-email">
+            <div class="footer-email__text">Пишите нам по всем вопросам:</div>
+            <a href="mailto:welcome@keks-agency.ru" class="footer-email__link">welcome@keks-agency.ru</a>
+         </div>
+      </div>
+
+      <div class="footer-bot-wrap">
+         <div class="footer-bot">
+            <div class="footer-copy">
+               <div class="footer-copy__text">© 2021. КЕКС. Все права защищены.</div>
+               <a href="#policy-popup" data-fancybox class="footer-copy__link">Политика конфиденциальности</a>
+            </div>
+            <div class="footer-soc">
+               <div class="footer-soc__text">Мы в соц. сетях:</div>
+               <div class="footer-soc__btns">
+                  <a href="#" class="soc-link">
+                     <svg>
+                        <use xlink:href="img/sprite.svg#fb"></use>
+                     </svg>
+                  </a>
+                  <a href="#" class="soc-link">
+                     <svg>
+                        <use xlink:href="img/sprite.svg#insta"></use>
+                     </svg>
+                  </a>
+               </div>
+            </div>
+            <div class="footer-made">
+               <a href="https://gektor-studio.com/" class="footer-made__link" target="_blank">
+                  <img src="img/gektor.svg" alt="gektor">
+               </a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <div class="sidebar sidebar-menu" id="sidebar-menu">
+      <div class="sidebar-head">
+         <a href="#section-main" class="logo scroll-link">
+            <div class="logo__logo">КЕКС</div>
+            <div class="logo__text">Коммуникационное <br> агентство</div>
+         </a>
+
+         <div class="sidebar-close">
+            <svg>
+               <use xlink:href='img/sprite.svg#close'></use>
+            </svg>
+         </div>
+      </div>
+      <ul class="sidebar-nav scroll-spy">
+         <li><a href="#section-main">Главная</a></li>
+         <li><a href="#section-service">Услуги</a></li>
+         <li><a href="#section-portfolio">Кейсы</a></li>
+         <li><a href="#section-client">Клиенты</a></li>
+         <li><a href="#section-follow">Контакты</a></li>
+      </ul>
+      <div class="sidebar-contact">
+         <div class="sidebar-tell">
+            <a href='tel:+74951287161' class='sidebar-tell__link'>8 (495) 128 71-61</a>
+         </div>
+         <div class="sidebar-email">
+            <div class="sidebar-email__text">Пишите нам по всем вопросам:</div>
+            <a href="mailto:welcome@keks-agency.ru" class="sidebar-email__link">welcome@keks-agency.ru</a>
+         </div>
+      </div>
+      <div class="sidebar-social">
+         <div class="sidebar-social__text">Мы в соц. сетях:</div>
+         <div class="sidebar-social__btns">
+            <a href="#" class="soc-link">
+               <svg>
+                  <use xlink:href='img/sprite.svg#fb'></use>
+               </svg>
+            </a>
+            <a href="#" class="soc-link">
+               <svg>
+                  <use xlink:href='img/sprite.svg#insta'></use>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </div>
+
+   <div class="call-menu" id="call-menu">
+      <a href="tel:+74951287161" class="call-menu__item">
+         <span class="call-menu__icon">
+            <svg>
+               <use xlink:href='img/color-sprite.svg#call2'></use>
+            </svg>
+         </span>
+         <span class="call-menu__inner">
+            <span class="call-menu__text">+7 (495) 128-71-61</span>
+            <div class="call-menu__sm">набрать номер</div>
+         </span>
+      </a>
+      <div data-target="#callback-sidebar" class="call-menu__item trigger-callback">
+         <span class="call-menu__icon">
+            <svg>
+               <use xlink:href='img/color-sprite.svg#call'></use>
+            </svg>
+         </span>
+         <span class="call-menu__inner">
+            <span class="call-menu__text">Заказать обратный звонок</span>
+         </span>
+      </div>
+      <a href="#" class="call-menu__item">
+         <span class="call-menu__icon">
+            <svg>
+               <use xlink:href='img/color-sprite.svg#whatsapp'></use>
+            </svg>
+         </span>
+         <span class="call-menu__inner">
+            <span class="call-menu__text">Whatsapp</span>
+         </span>
+      </a>
+      <a href="#" class="call-menu__item">
+         <span class="call-menu__icon">
+            <svg>
+               <use xlink:href='img/color-sprite.svg#viber'></use>
+            </svg>
+         </span>
+         <span class="call-menu__inner">
+            <span class="call-menu__text">Viber</span>
+         </span>
+      </a>
+      <a href="#" class="call-menu__item">
+         <span class="call-menu__icon">
+            <svg>
+               <use xlink:href='img/color-sprite.svg#telegram'></use>
+            </svg>
+         </span>
+         <span class="call-menu__inner">
+            <span class="call-menu__text">Telegram</span>
+         </span>
+      </a>
+      <div href="#" class="call-menu__item close-callmenu">
+         Отмена
+      </div>
+   </div>
+
+   <div class="sidebar" id="callback-sidebar">
+      <div class="sidebar-head">
+         <a href="#" class="logo">
+            <div class="logo__logo">КЕКС</div>
+            <div class="logo__text">Коммуникационное <br> агентство</div>
+         </a>
+
+         <div class="sidebar-close">
+            <svg>
+               <use xlink:href='img/sprite.svg#close'></use>
+            </svg>
+         </div>
+      </div>
+      <div class="sidebar-form">
+         <div class="sidebar-form__title">перезвонить вам?</div>
+         <div class="sidebar-form__form">
+            <form action="#" class="form validate">
+
+               <div class="formgroup">
+                  <input type="text" name="name">
+                  <label class="ef">Ваше имя</label>
+               </div>
+               <div class="formgroup offset-bot">
+                  <input type="tel" name="tel">
+                  <label class="ef">Номер телефона</label>
+               </div>
+
+               <div class="form-footer">
+                  <div class="form-policy">
+                     <div class="form-policy__text">Нажимая кнопку, вы соглашаетесь с </div>
+                     <a href="#policy-popup" data-fancybox class="form-policy__link">политикой конфиденицальности</a>
+                  </div>
+                  <button class="main-btn" type="submit">
+                     Отправить
+                     <svg>
+                        <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                     </svg>
+                     <span></span>
+                  </button>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <div class="sidebar" id="request-sidebar">
+      <div class="sidebar-head">
+         <a href="#" class="logo">
+            <div class="logo__logo">КЕКС</div>
+            <div class="logo__text">Коммуникационное <br> агентство</div>
+         </a>
+
+         <div class="sidebar-close">
+            <svg>
+               <use xlink:href='img/sprite.svg#close'></use>
+            </svg>
+         </div>
+      </div>
+      <div class="sidebar-form">
+         <div class="sidebar-form__title">отправить запрос</div>
+         <div class="sidebar-form__form">
+            <form action="#" class="form validate2">
+
+               <div class="formgroup">
+                  <input type="text" name="name">
+                  <label class="ef">Ваше имя</label>
+               </div>
+               <div class="formgroup">
+                  <input type="tel" name="tel">
+                  <label class="ef">Номер телефона</label>
+               </div>
+               <div class="formgroup">
+                  <input type="email" name="email">
+                  <label class="ef">Ваш email</label>
+               </div>
+               <div class="upload_wrap">
+                  <span class="icon icon-paperclip">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#clip'></use>
+                     </svg>
+                  </span>
+                  <div class="file-upload">
+                     <label class="lbl">
+                        <input type="file" name="userfile[]" multiple>
+                        <span class="">Прикрепить файлы (до 10 мб.)</span>
+                     </label>
+                  </div>
+                  <div class="info"></div>
+               </div>
+               <div class="form-footer">
+                  <div class="form-policy">
+                     <div class="form-policy__text">Нажимая кнопку, вы соглашаетесь с </div>
+                     <a href="#policy-popup" data-fancybox class="form-policy__link">политикой конфиденицальности</a>
+                  </div>
+                  <button class="main-btn" type="submit">
+                     Отправить
+                     <svg>
+                        <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                     </svg>
+                     <span></span>
+                  </button>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <div class="sidebar" id="request_add-sidebar">
+      <div class="sidebar-head">
+         <a href="#" class="logo">
+            <div class="logo__logo">КЕКС</div>
+            <div class="logo__text">Коммуникационное <br> агентство</div>
+         </a>
+
+         <div class="sidebar-close">
+            <svg>
+               <use xlink:href='img/sprite.svg#close'></use>
+            </svg>
+         </div>
+      </div>
+      <div class="sidebar-form">
+         <div class="sidebar-form__title">отправить запрос</div>
+         <div class="sidebar-form__form">
+            <form action="#" class="form validate2">
+               <input type="hidden" name="theme" value="Запрос на услуги">
+               <input type="hidden" name="service" value="">
+               <input type="hidden" name="discr" value="">
+
+               <div class="formgroup">
+                  <input type="text" name="name">
+                  <label class="ef">Ваше имя</label>
+               </div>
+               <div class="formgroup">
+                  <input type="tel" name="tel">
+                  <label class="ef">Номер телефона</label>
+               </div>
+               <div class="formgroup">
+                  <input type="email" name="email">
+                  <label class="ef">Ваш email</label>
+               </div>
+               <div class="upload_wrap">
+                  <span class="icon icon-paperclip">
+                     <svg>
+                        <use xlink:href='img/sprite.svg#clip'></use>
+                     </svg>
+                  </span>
+                  <<div class="file-upload">
+                     <label class="lbl">
+                        <input type="file" name="userfile[]" multiple>
+                        <span class="">Прикрепить файлы (до 10 мб.)</span>
+                     </label>
+               </div>
+               <div class="info"></div>
+         </div>
+         <div class="form-footer">
+            <div class="form-policy">
+               <div class="form-policy__text">Нажимая кнопку, вы соглашаетесь с </div>
+               <a href="#policy-popup" data-fancybox class="form-policy__link">политикой конфиденицальности</a>
+            </div>
+            <button class="main-btn" type="submit">
+               Отправить
+               <svg>
+                  <use xlink:href='img/sprite.svg#btn-arrow'></use>
+               </svg>
+               <span></span>
+            </button>
+         </div>
+         </form>
+      </div>
+   </div>
+   </div>
+
+   <div class="sidebar" id="present-sidebar">
+      <div class="sidebar-head">
+         <a href="#" class="logo">
+            <div class="logo__logo">КЕКС</div>
+            <div class="logo__text">Коммуникационное <br> агентство</div>
+         </a>
+
+         <div class="sidebar-close">
+            <svg>
+               <use xlink:href='img/sprite.svg#close'></use>
+            </svg>
+         </div>
+      </div>
+      <div class="sidebar-form">
+         <div class="sidebar-form__title">получить презентацию</div>
+         <div class="sidebar-form__form">
+            <form action="#" class="form validate">
+
+               <div class="formgroup">
+                  <input type="text" name="name">
+                  <label class="ef">Ваше имя</label>
+               </div>
+               <div class="formgroup">
+                  <input type="tel" name="tel">
+                  <label class="ef">Номер телефона</label>
+               </div>
+               <div class="formgroup">
+                  <input type="email" name="email">
+                  <label class="ef">Ваш email</label>
+               </div>
+
+               <div class="form-footer">
+                  <div class="form-policy">
+                     <div class="form-policy__text">Нажимая кнопку, вы соглашаетесь с </div>
+                     <a href="#policy-popup" data-fancybox class="form-policy__link">политикой конфиденицальности</a>
+                  </div>
+                  <button class="main-btn" type="submit">
+                     Отправить
+                     <svg>
+                        <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                     </svg>
+                     <span></span>
+                  </button>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <div class="main-popup" id="callback">
+      <div class="main-popup__inner">
+         <div class="main-popup__img">
+            <img src="img/callback-popup.jpg" alt="img">
+         </div>
+         <div class="main-popup__content">
+            <div class="main-popup__title">перезвонить вам?</div>
+            <div class="main-popup__form">
+               <form action="#" class="form validate">
+
+                  <div class="formgroup">
+                     <input type="text" name="name">
+                     <label class="ef">Ваше имя</label>
+                  </div>
+                  <div class="formgroup offset-bot">
+                     <input type="tel" name="tel">
+                     <label class="ef">Номер телефона</label>
+                  </div>
+
+                  <div class="form-footer">
+                     <div class="form-policy">
+                        <div class="form-policy__text">Нажимая кнопку, вы соглашаетесь с </div>
+                        <a href="#policy-popup" data-fancybox class="form-policy__link">политикой конфиденицальности</a>
+                     </div>
+                     <button class="main-btn" type="submit">
+                        Отправить
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="main-popup" id="request">
+      <div class="main-popup__inner">
+         <div class="main-popup__img">
+            <img src="img/request-popup.jpg" alt="img">
+         </div>
+         <div class="main-popup__content">
+            <div class="main-popup__title">отправить запрос</div>
+            <div class="main-popup__form">
+
+               <form action="#" class="form validate2">
+                  <div class="formgroup">
+                     <input type="text" name="name">
+                     <label class="ef">Ваше имя</label>
+                  </div>
+                  <div class="formgroup">
+                     <input type="tel" name="tel">
+                     <label class="ef">Номер телефона</label>
+                  </div>
+                  <div class="formgroup">
+                     <input type="email" name="email">
+                     <label class="ef">Ваш email</label>
+                  </div>
+
+                  <div class="upload_wrap">
+                     <span class="icon icon-paperclip">
+                        <svg>
+                           <use xlink:href='img/sprite.svg#clip'></use>
+                        </svg>
+                     </span>
+                     <div class="file-upload">
+                        <label class="lbl">
+                           <input type="file" name="userfile[]" multiple>
+                           <span class="">Прикрепить файлы (до 10 мб.)</span>
+                        </label>
+                     </div>
+                     <div class="info"></div>
+                  </div>
+
+                  <div class="form-footer">
+                     <div class="form-policy">
+                        <div class="form-policy__text">Нажимая кнопку, вы соглашаетесь с </div>
+                        <a href="#policy-popup" data-fancybox class="form-policy__link">политикой конфиденицальности</a>
+                     </div>
+                     <button class="main-btn" type="submit">
+                        Отправить
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="main-popup" id="request_add">
+      <div class="main-popup__inner">
+         <div class="main-popup__img">
+            <img src="img/request-popup.jpg" alt="img">
+         </div>
+         <div class="main-popup__content">
+            <div class="main-popup__title">отправить запрос</div>
+            <div class="main-popup__form">
+
+               <form action="#" class="form validate2">
+                  <input type="hidden" name="theme" value="Запрос на услуги">
+                  <input type="hidden" name="service" value="">
+                  <input type="hidden" name="discr" value="">
+
+                  <div class="formgroup">
+                     <input type="text" name="name">
+                     <label class="ef">Ваше имя</label>
+                  </div>
+                  <div class="formgroup">
+                     <input type="tel" name="tel">
+                     <label class="ef">Номер телефона</label>
+                  </div>
+                  <div class="formgroup">
+                     <input type="email" name="email">
+                     <label class="ef">Ваш email</label>
+                  </div>
+
+                  <div class="upload_wrap">
+                     <span class="icon icon-paperclip">
+                        <svg>
+                           <use xlink:href='img/sprite.svg#clip'></use>
+                        </svg>
+                     </span>
+                     <div class="file-upload">
+                        <label class="lbl">
+                           <input type="file" name="userfile[]" multiple>
+                           <span class="">Прикрепить файлы (до 10 мб.)</span>
+                        </label>
+                     </div>
+                     <div class="info"></div>
+                  </div>
+
+                  <div class="form-footer">
+                     <div class="form-policy">
+                        <div class="form-policy__text">Нажимая кнопку, вы соглашаетесь с </div>
+                        <a href="#policy-popup" data-fancybox class="form-policy__link">политикой конфиденицальности</a>
+                     </div>
+                     <button class="main-btn" type="submit">
+                        Отправить
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="main-popup" id="present">
+      <div class="main-popup__inner">
+         <div class="main-popup__img">
+            <img src="img/present-popup.jpg" alt="img">
+         </div>
+         <div class="main-popup__content">
+            <div class="main-popup__title">получить презентацию</div>
+            <div class="main-popup__form">
+
+               <form action="#" class="form validate">
+                  <div class="formgroup">
+                     <input type="text" name="name">
+                     <label class="ef">Ваше имя</label>
+                  </div>
+                  <div class="formgroup">
+                     <input type="tel" name="tel">
+                     <label class="ef">Номер телефона</label>
+                  </div>
+                  <div class="formgroup">
+                     <input type="email" name="email">
+                     <label class="ef">Ваш email</label>
+                  </div>
+
+                  <div class="form-footer">
+                     <div class="form-policy">
+                        <div class="form-policy__text">Нажимая кнопку, вы соглашаетесь с </div>
+                        <a href="#policy-popup" data-fancybox class="form-policy__link">политикой конфиденицальности</a>
+                     </div>
+                     <button class="main-btn" type="submit">
+                        Отправить
+                        <svg>
+                           <use xlink:href='img/sprite.svg#btn-arrow'></use>
+                        </svg>
+                        <span></span>
+                     </button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="ok-popup" id="ok">
+      <div class="ok-popup__inner">
+         <img src="img/ok.svg" alt="ok" class="ok-popup__img">
+         <div class="ok-popup__title">Готово!</div>
+         <div class="ok-popup__text">Спасибо за Ваше обращение, заявка отправлена. В ближайшее
+            время мы с Вами свяжемся и уточним все детали, которые <br> Вас интересуют.</div>
+
+         <div class="ok-popup__btn">
+            <button class="close-popup main-btn">понятно, закрыть <span></span></button>
+         </div>
+      </div>
+   </div>
+
+   <div class="ok-popup" id="ok-present">
+      <div class="ok-popup__inner">
+         <img src="img/ok.svg" alt="ok" class="ok-popup__img">
+         <div class="ok-popup__title">Готово!</div>
+         <div class="ok-popup__text">Спасибо за Ваше обращение, презентация готова к скачиванию. Вы можете заказать
+            обратный звонок и задать нам вопросы, ответы на которые вы не нашли в презентации. Мы с радостью вам
+            поможем.</div>
+
+         <div class="ok-popup__btn">
+            <a data-fancybox data-type="iframe" href="https://lux-coffee.ru/doc/bosch-verocappuccino-tes556m1ru.pdf"
+               class="close-popup main-btn">скачать
+               презентацию<span></span></a>
+         </div>
+      </div>
+   </div>
+
+   <div class="policy-popup" id="policy-popup">
+      <div class="policy-popup__inner">
+         <div class="policy-popup__title">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ.</div>
+         <div class="policy-popup__title2">1. Общие положения </div>
+         <p>1.1. Настоящая Политика определяет порядок обработки и защиты компании «LYSI» информации о физических лицах
+            (далее - Пользователи), которая может быть получена «LYSI» при использовании Пользователем услуг,
+            предоставляемых посредством сайта «LYSI». </p>
+         <p>1.2. Цель настоящей Политики - обеспечить защиту информации о Пользователях, включая полученные персональные
+            данные, от несанкционированного доступа и разглашения. </p>
+         <p>1.3. Отношения, имеющие отношение к сбору, хранению, распространению и защите информации, предоставляемой
+            Пользователем, регулируются настоящей Политикой, иными официальными документами «LYSI» и действующим
+            законодательством Российской Федерации. </p>
+         <p>1.4. Регистрируясь на Сайте и используя Сайт и Сервисы, Пользователь выражает свое полное согласие с
+            условиями
+            настоящей Политики. </p>
+         <p>1.5. В случае несогласии с условиями настоящей Политики, Пользователи должен воздержаться от использования
+            Сайта и/или каких-либо Сервисов, доступных при использовании Сайта. </p>
+         <div class="policy-popup__title2">2. Цели сбора и обработки персональной информации пользователей </div>
+         <p>2.1. Обработка персональных данных Пользователя производится в соответствии с законодательством Российской
+            Федерации.
+            Персональные данные Пользователя, переданные «LYSI», обрабатываются с целью:
+            Идентификации стороны в рамках соглашений и договоров с «LYSI»;
+            Предоставления Пользователю услуг;
+            Таргетирования рекламных материалов;
+            Проверки, исследования и анализа данных, дающих возможность поддерживать, разрабатывать и улучшать Сервисы и
+            разделы Сайта;
+            Проведения статистических и иных исследований на основе обезличенных данных. </p>
+
+         <div class="policy-popup__title2">3. Условия обработки персональной информации предоставленной Пользователем и
+            ее
+            передачи третьим лицам </div>
+         <p>3.1. «LYSI» принимает все необходимые меры для защиты персональных данных Пользователя от случайного
+            доступа,
+            изменения, раскрытия, блокирования, уничтожения, неправомерных действий. </p>
+         <p>3.2. «LYSI» вправе передать персональные данные Пользователя только тем работникам, подрядчикам и
+            аффилированным лицам, которым эта информация необходима для оказания услуги пользователю или обеспечения
+            функционирования Сайта и Сервисов.</p>
+         <p>3.3. «LYSI» вправе использовать предоставленную Пользователем информацию, в том числе персональные данные, в
+            целях обеспечения соблюдения требований действующего законодательства Российской Федерации (в том числе в
+            целях
+            предупреждения и/или пресечения незаконных и/или противоправных действий Пользователей). Раскрытие
+            предоставленной Пользователем информации может быть произведено лишь в соответствии с действующим
+            законодательством Российской Федерации по требованию суда, правоохранительных органов, а также в иных
+            предусмотренных законодательством Российской Федерации случаях. </p>
+         <div class="policy-popup__title2">4. Пользование Сайтом и Сервисами </div>
+         <p>4.1. Используя Сайт и Сервисы, пользователь подтверждает, что:
+            обладает правами, позволяющими ему осуществлять регистрацию и использовать Услуги сайта;
+            указывает достоверную информацию о себе в необходимых объемах для пользования Услугами Сайта. Обязательные
+            для
+            заполнения поля помечены специальным образом, иная информация предоставляется Пользователем по его
+            усмотрению;
+            осознает, что информация на Сайте, размещаемая Пользователем о себе, может стать доступной для третьих лиц,
+            может быть скопирован и распространена ими;
+            согласен с настоящей Политикой и принимает все указанные в ней права и обязанности. Оно дает «LYSI» право на
+            сбор, хранение, обработку и передачу третьим лицам персональных данных, предоставляемых Пользователем. </p>
+         <p>4.2. «LYSI» не проверяет достоверность полученной информации, кроме ряда случаев, когда такая проверка
+            необходима для исполнения обязательств по предоставлению Услуги Пользователю. </p>
+         <div class="policy-popup__title2"> 5. В рамках настоящей Политики под «персональной информацией Пользователя»
+            понимаются: </div>
+         <p>5.1. Данные, которые пользователь сообщает самостоятельно при пользовании Сайтом и Сервисами. Информация,
+            которая входит в данные, но не ограничивается ими: имя, фамилия, пол, номер мобильного телефона, адрес
+            электронной почты, семейное положение, дата рождения, родной город, домашний адрес, информация об
+            образовании,
+            о роде деятельности. </p>
+         <p>5.2. Данные, передающиеся Сервисам в процессе их использования с помощью установленного на устройстве
+            Пользователя программного обеспечения. В том числе IP-адрес, информация из cookie, информация о браузере
+            пользователя (или иной программе, с помощью которой осуществляется доступ к Сервисам), время доступа, адрес
+            запрашиваемой страницы. </p>
+         <p>5.3 Иная информация о Пользователе, сбор и/или предоставление которой определено в Регулирующих документах
+            отдельных Сервисов «LYSI». </p>
+         <div class="policy-popup__title2">6. Изменение Политики конфиденциальности. Применимое законодательство </div>
+         <p>6.1. «LYSI» имеет право вносить изменения в настоящую Политику конфиденциальности. После внесения изменений
+            в
+            последней редакции указывается дата обновления. Новая редакция Политики вступает в силу с момента ее
+            размещения, если иное не предусмотрено новой редакцией Политики. </p>
+         <p>6.2. К настоящей Политике и отношениям между Пользователем и «LYSI», возникающим в связи с применением
+            Политики
+            конфиденциальности, подлежит применению право Российской Федерации. </p>
+         <div class="policy-popup__title2">7. Обратная связь. Вопросы и предложения </div>
+         <p> 7.1. Все предложения или вопросы по поводу настоящей Политики следует сообщать в Службу поддержки «LYSI».
+         </p>
+      </div>
+   </div>
+
+   <script src="scripts/app.min.js"></script>
+   <script src="scripts/main.js"></script>
+</body>
+
+</html>
