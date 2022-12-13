@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lux prom</title>
+
+   <link rel="stylesheet" href="css/app.min.css">
+   <link rel="stylesheet" href="css/main.css">
+   
+</head>
+<body>
+
+<header class="header">
+   <div class='container'>
+      <div class="header__inner">
+         <a href="#" class="header__logo">
+            <img src="img/logo.png" alt="logo">
+         </a>
+         <ul class="header__nav">
+            <li><a href="#supply">Мы поставляем</a></li>
+            <li><a href="#advantages">Преимущества</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#stages">Этапы работы</a></li>
+            <li><a href="#about">О компании</a></li>
+            <li><a href="#project">Наши проекты</a></li>
+         </ul>
+         
+         <ul class="header__contact">
+            <li><a href="tel:+79660886699">+7 (966) 088-66-99</a></li>
+            <li><a href="tel:79104524455">+7 (910) 452-44-55</a></li>
+         </ul>
+         <a href="tel:+79998887766" class="header__tel"></a>
+      </div>
+   </div>
+</header>
+
+<section>
+   <div class='container'>
+      <a href="#popup-callback" class="btn-popup">callback</a>
+      <a href="#popup-send" class="btn-popup">send</a>
+   </div>
+</section>
+
+<div class="popup send-popup zoom-anim-dialog mfp-hide" id="send-popup">
+   <div class="send-popup__inner">
+      <h2 class="h2 send-popup__title">Спасибо!</h2>
+      <div class="subtitle send-popup__subtitle">В ближайшее время мы с вами свяжемся.</div>
+   </div>
+</div>
+
+<div class="popup callback-popup zoom-anim-dialog mfp-hide" id="callback-popup">
+   <h2 class="h2 callback-popup__title">Свяжитесь <br>с нами</h2>
+   <div class="subtitle callback-popup__subtitle">Заполните форму и мы свяжемся с вами и ответим на любые вопросы</div>
+   <form class="form">
+      <div class="formgroup">
+         <input type="text" placeholder="Ваше имя" name="name">
+      </div>
+      <div class="formgroup">
+         <input type="text" placeholder="Ваш e-mail" name="email">
+      </div>
+      <div class="formgroup">
+         <input type="tel" placeholder="Ваш телефон" name="tel">
+      </div>
+      <label class="form-checkbox">
+         <input type="checkbox" checked>
+         <span class="form-checkbox__text">Согласен с <a href="#">условиями оферты</a> и на <a href="#">обработку персональных данных</a></span>
+      </label>
+      <div class="form__control">
+         <button class="btn-main">Связаться со мной!</button>
+      </div>
+   </form>
+</div>
+
+<footer class="footer">
+   <div class='container'>
+      <div class="footer__top">
+         <div class="footer-contact" itemscope itemtype="http://schema.org/Organization">
+            <h2 class="h2 footer-contact__title">Контакты</h2>
+            <ul class="footer-contact__list">
+               <li itemprop="name">Luxprom.net</li>
+               <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">г. Москва,</span> <br><span itemprop="streetAddress">улица Клинская дом 6. Офис <br> №224</span></li>
+            </ul>
+            
+            <ul class="footer-contact__list">
+               <li>Режим работы:</li>
+               <li>Пн-Пт: 9:00 - 18:00</li>
+               <li>Сб-Вс: 10:00 - 18:00</li>
+               <li>Общая почта для заказов:</li>
+               <li itemprop="email"><a href="mailto:info@luxprom.net">info@luxprom.net</a></li>
+            </ul>
+            <ul class="footer-contact__list">
+               <li>Телефоны:</li>
+               <li itemprop="telephone"><a href="tel:79660886699">+7 (966) 088-66-99</a></li>
+               <li itemprop="telephone"><a href="tel:79104524455">+7 (910) 452-44-55</a></li>
+               <li itemprop="telephone"><a href="tel:79166206764">+7 (916) 620-67-64</a></li>
+            </ul>
+         </div>
+         <div class="footer-form">
+            <h2 class="h2 footer-form__title">Свяжитесь <br> с нами</h2>
+            <div class="footer-form__subtitle">Заполните форму и мы свяжемся с вами и ответим на любые вопросы</div>
+
+            <form class="form">
+               <div class="formgroup">
+                  <input type="text" placeholder="Ваше имя" name="name">
+               </div>
+               <div class="formgroup">
+                  <input type="text" placeholder="Ваш e-mail" name="email">
+               </div>
+               <div class="formgroup">
+                  <input type="tel" placeholder="Ваш телефон" name="tel">
+               </div>
+               <label class="form-checkbox">
+                  <input type="checkbox" checked>
+                  <span class="form-checkbox__text">Согласен с <a href="#">условиями оферты</a> и на <a href="#">обработку персональных данных</a></span>
+               </label>
+               <div class="form__control">
+                  <button class="btn-main">Связаться со мной!</button>
+               </div>
+            </form>
+         </div>
+      </div>
+   
+      <div class="footer__bot">
+         <div class="footer__date">2022</div>
+         <a href="#" class="footer__policy">Политика конфиденциальности</a>
+      </div>
+   </div>
+</footer>
+ 
+<script src="https://api-maps.yandex.ru/2.1/?apikey=a23a38ef-afe1-40df-82e4-40522057f61a&lang=ru_RU">
+</script>
+
+
+<script src="scripts/app.min.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
